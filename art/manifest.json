@@ -1,0 +1,1329 @@
+{
+  "Sky": {
+    "kind": "native",
+    "width": 4,
+    "height": 16,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Cloud_01": {
+    "kind": "native",
+    "width": 28,
+    "height": 8,
+    "frames": 1,
+    "source": "Town.h",
+    "bitmap_call": true
+  },
+  "Cloud_02": {
+    "kind": "native",
+    "width": 28,
+    "height": 16,
+    "frames": 1,
+    "source": "Town.h",
+    "bitmap_call": true
+  },
+  "Crates": {
+    "kind": "native",
+    "width": 22,
+    "height": 24,
+    "frames": 1,
+    "source": "Town.h",
+    "bitmap_call": true
+  },
+  "Crates_Mask": {
+    "kind": "native",
+    "width": 22,
+    "height": 24,
+    "frames": 1,
+    "source": "Town.h",
+    "bitmap_call": true
+  },
+  "Grass": {
+    "kind": "native",
+    "width": 36,
+    "height": 4,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Grass_mask": {
+    "kind": "mask",
+    "width": 36,
+    "height": 4,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Town_Gound": {
+    "kind": "native",
+    "width": 16,
+    "height": 14,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Arrow_Up_Dialogue": {
+    "kind": "native",
+    "width": 5,
+    "height": 3,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Arrow_Down_Dialogue": {
+    "kind": "native",
+    "width": 5,
+    "height": 3,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Arrow_Up": {
+    "kind": "native",
+    "width": 9,
+    "height": 4,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Arrow_Up_Small": {
+    "kind": "native",
+    "width": 7,
+    "height": 3,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Arrow_Down": {
+    "kind": "native",
+    "width": 9,
+    "height": 4,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Arrow_Down_Small": {
+    "kind": "native",
+    "width": 7,
+    "height": 3,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Arrow_Left": {
+    "kind": "native",
+    "width": 3,
+    "height": 7,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Arrow_Right": {
+    "kind": "native",
+    "width": 3,
+    "height": 7,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "HandPointer": {
+    "kind": "native",
+    "width": 14,
+    "height": 13,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Town_Sign": {
+    "kind": "native",
+    "width": 26,
+    "height": 16,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Tombstone": {
+    "kind": "native",
+    "width": 11,
+    "height": 16,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Tombstone2": {
+    "kind": "native",
+    "width": 11,
+    "height": 16,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Pumpkin": {
+    "kind": "native",
+    "width": 15,
+    "height": 11,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Pumpkin_Mask": {
+    "kind": "mask",
+    "width": 15,
+    "height": 11,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "SavingPost": {
+    "kind": "native",
+    "width": 16,
+    "height": 16,
+    "frames": 1,
+    "source": "Town.h",
+    "bitmap_call": true
+  },
+  "HP": {
+    "kind": "native",
+    "width": 7,
+    "height": 8,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "MrBlinky": {
+    "kind": "native",
+    "width": 10,
+    "height": 10,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "MrBlinky_Mask": {
+    "kind": "mask",
+    "width": 10,
+    "height": 10,
+    "frames": 1,
+    "source": "Town.h"
+  },
+  "Tree": {
+    "kind": "native",
+    "width": 26,
+    "height": 32,
+    "frames": 1,
+    "source": "Trees.h",
+    "bitmap_call": true
+  },
+  "TitleScreen": {
+    "kind": "native",
+    "width": 128,
+    "height": 48,
+    "frames": 1,
+    "source": "Title.h",
+    "bitmap_call": true
+  },
+  "TitleScreen_PressA": {
+    "kind": "native",
+    "width": 34,
+    "height": 16,
+    "frames": 1,
+    "source": "Title.h",
+    "bitmap_call": true
+  },
+  "Enemy_InfoPanel": {
+    "kind": "native",
+    "width": 38,
+    "height": 16,
+    "frames": 1,
+    "source": "Enemies.h",
+    "bitmap_call": true
+  },
+  "Enemy_InfoPanel_Mask": {
+    "kind": "native",
+    "width": 38,
+    "height": 16,
+    "frames": 1,
+    "source": "Enemies.h",
+    "bitmap_call": true
+  },
+  "GelatinousCube_00": {
+    "kind": "native",
+    "width": 40,
+    "height": 32,
+    "frames": 1,
+    "source": "Enemies.h",
+    "bitmap_call": true
+  },
+  "GelatinousCube_01": {
+    "kind": "native",
+    "width": 40,
+    "height": 32,
+    "frames": 1,
+    "source": "Enemies.h",
+    "bitmap_call": true
+  },
+  "GelatinousCube_02": {
+    "kind": "native",
+    "width": 40,
+    "height": 32,
+    "frames": 1,
+    "source": "Enemies.h",
+    "bitmap_call": true
+  },
+  "GelatinousCube_03": {
+    "kind": "native",
+    "width": 40,
+    "height": 32,
+    "frames": 1,
+    "source": "Enemies.h",
+    "bitmap_call": true
+  },
+  "SmallWerewolf_00": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Enemies.h",
+    "bitmap_call": true
+  },
+  "SmallWerewolf_01": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Enemies.h",
+    "bitmap_call": true
+  },
+  "SmallWerewolf_02": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Enemies.h",
+    "bitmap_call": true
+  },
+  "LargeWerewolf_Head": {
+    "kind": "native",
+    "width": 17,
+    "height": 12,
+    "frames": 1,
+    "source": "Enemies.h"
+  },
+  "LargeWerewolf_Head_Mask": {
+    "kind": "mask",
+    "width": 17,
+    "height": 12,
+    "frames": 1,
+    "source": "Enemies.h"
+  },
+  "LargeWerewolf_Torso": {
+    "kind": "native",
+    "width": 30,
+    "height": 16,
+    "frames": 1,
+    "source": "Enemies.h"
+  },
+  "LargeWerewolf_Bottom": {
+    "kind": "native",
+    "width": 28,
+    "height": 8,
+    "frames": 1,
+    "source": "Enemies.h"
+  },
+  "AztaroK_Left": {
+    "kind": "native",
+    "width": 18,
+    "height": 19,
+    "frames": 1,
+    "source": "Enemies.h"
+  },
+  "AztaroK_Left_Mask": {
+    "kind": "mask",
+    "width": 18,
+    "height": 19,
+    "frames": 1,
+    "source": "Enemies.h"
+  },
+  "AztaroK_Middle": {
+    "kind": "native",
+    "width": 31,
+    "height": 22,
+    "frames": 1,
+    "source": "Enemies.h"
+  },
+  "AztaroK_Right": {
+    "kind": "native",
+    "width": 18,
+    "height": 19,
+    "frames": 1,
+    "source": "Enemies.h"
+  },
+  "AztaroK_Right_Mask": {
+    "kind": "mask",
+    "width": 18,
+    "height": 19,
+    "frames": 1,
+    "source": "Enemies.h"
+  },
+  "AztaroK_Dead": {
+    "kind": "native",
+    "width": 56,
+    "height": 24,
+    "frames": 1,
+    "source": "Enemies.h",
+    "bitmap_call": true
+  },
+  "Skeleton_00": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Enemies.h",
+    "bitmap_call": true
+  },
+  "Skeleton_01": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Enemies.h",
+    "bitmap_call": true
+  },
+  "Skeleton_02": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Enemies.h",
+    "bitmap_call": true
+  },
+  "DMGFire": {
+    "kind": "native",
+    "width": 6,
+    "height": 5,
+    "frames": 1,
+    "source": "Enemies.h"
+  },
+  "DMGMist": {
+    "kind": "native",
+    "width": 6,
+    "height": 5,
+    "frames": 1,
+    "source": "Enemies.h"
+  },
+  "hpGauge": {
+    "kind": "native",
+    "width": 51,
+    "height": 8,
+    "frames": 1,
+    "source": "Gauges.h"
+  },
+  "hpGauge_Mask": {
+    "kind": "mask",
+    "width": 51,
+    "height": 8,
+    "frames": 1,
+    "source": "Gauges.h"
+  },
+  "Gauge": {
+    "kind": "native",
+    "width": 42,
+    "height": 16,
+    "frames": 1,
+    "source": "Gauges.h",
+    "bitmap_call": true
+  },
+  "spGauge": {
+    "kind": "native",
+    "width": 40,
+    "height": 11,
+    "frames": 1,
+    "source": "Gauges.h"
+  },
+  "spGauge_Mask": {
+    "kind": "mask",
+    "width": 40,
+    "height": 11,
+    "frames": 1,
+    "source": "Gauges.h"
+  },
+  "gpGauge": {
+    "kind": "native",
+    "width": 40,
+    "height": 11,
+    "frames": 1,
+    "source": "Gauges.h"
+  },
+  "gpGauge_Mask": {
+    "kind": "mask",
+    "width": 40,
+    "height": 11,
+    "frames": 1,
+    "source": "Gauges.h"
+  },
+  "Numbers_4x4": {
+    "kind": "native",
+    "width": 4,
+    "height": 4,
+    "frames": 10,
+    "source": "Gauges.h"
+  },
+  "Inventory_TL": {
+    "kind": "native",
+    "width": 8,
+    "height": 8,
+    "frames": 1,
+    "source": "Gauges.h"
+  },
+  "Inventory_TR": {
+    "kind": "native",
+    "width": 8,
+    "height": 8,
+    "frames": 1,
+    "source": "Gauges.h"
+  },
+  "Inventory_BL": {
+    "kind": "native",
+    "width": 8,
+    "height": 8,
+    "frames": 1,
+    "source": "Gauges.h"
+  },
+  "Inventory_BR": {
+    "kind": "native",
+    "width": 8,
+    "height": 8,
+    "frames": 1,
+    "source": "Gauges.h"
+  },
+  "Castle_LH_Top": {
+    "kind": "native",
+    "width": 8,
+    "height": 8,
+    "frames": 1,
+    "source": "Castle.h"
+  },
+  "Castle_LH_Top_Mask": {
+    "kind": "mask",
+    "width": 8,
+    "height": 8,
+    "frames": 1,
+    "source": "Castle.h"
+  },
+  "Castle_RH_Top": {
+    "kind": "native",
+    "width": 23,
+    "height": 32,
+    "frames": 1,
+    "source": "Castle.h"
+  },
+  "Castle_LH_Mid": {
+    "kind": "native",
+    "width": 8,
+    "height": 16,
+    "frames": 1,
+    "source": "Castle.h"
+  },
+  "Castle_LH_Bottom": {
+    "kind": "native",
+    "width": 28,
+    "height": 16,
+    "frames": 1,
+    "source": "Castle.h"
+  },
+  "Castle_RH_Bottom": {
+    "kind": "native",
+    "width": 20,
+    "height": 16,
+    "frames": 1,
+    "source": "Castle.h"
+  },
+  "Castle_RH_Bottom_Mask": {
+    "kind": "mask",
+    "width": 20,
+    "height": 16,
+    "frames": 1,
+    "source": "Castle.h"
+  },
+  "Castle_Floor": {
+    "kind": "native",
+    "width": 16,
+    "height": 14,
+    "frames": 1,
+    "source": "Castle.h"
+  },
+  "Castle_Stairs": {
+    "kind": "native",
+    "width": 16,
+    "height": 16,
+    "frames": 1,
+    "source": "Castle.h",
+    "bitmap_call": true
+  },
+  "Castle_DarkBrick": {
+    "kind": "native",
+    "width": 17,
+    "height": 11,
+    "frames": 1,
+    "source": "Castle.h"
+  },
+  "Chain": {
+    "kind": "native",
+    "width": 3,
+    "height": 16,
+    "frames": 1,
+    "source": "Castle.h"
+  },
+  "Chest": {
+    "kind": "native",
+    "width": 8,
+    "height": 8,
+    "frames": 1,
+    "source": "Castle.h"
+  },
+  "Skull": {
+    "kind": "native",
+    "width": 9,
+    "height": 8,
+    "frames": 1,
+    "source": "Castle.h"
+  },
+  "Rune_Symbols": {
+    "kind": "native",
+    "width": 5,
+    "height": 6,
+    "frames": 8,
+    "source": "Runes.h"
+  },
+  "Rune_Frame_00": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_01": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_02": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_03": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_04": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_05": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_06": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_07": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_08": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_09": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_10": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_11": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_12": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_13": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_14": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_15": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Rune_Frame_16": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 1,
+    "source": "Runes.h",
+    "bitmap_call": true
+  },
+  "Coins": {
+    "kind": "native",
+    "width": 8,
+    "height": 8,
+    "frames": 4,
+    "source": "Runes.h"
+  },
+  "SPGraphic": {
+    "kind": "native",
+    "width": 12,
+    "height": 8,
+    "frames": 4,
+    "source": "Runes.h"
+  },
+  "PPOT": {
+    "kind": "native",
+    "width": 65,
+    "height": 32,
+    "frames": 1,
+    "source": "Splash.h"
+  },
+  "Sounds": {
+    "kind": "native",
+    "width": 8,
+    "height": 8,
+    "frames": 2,
+    "source": "Splash.h"
+  },
+  "Helmet_00": {
+    "kind": "native",
+    "width": 10,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Helmet_01": {
+    "kind": "native",
+    "width": 10,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Helmet_02": {
+    "kind": "native",
+    "width": 10,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Helmet_00_Mask": {
+    "kind": "native",
+    "width": 10,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Helmet_01_Mask": {
+    "kind": "native",
+    "width": 10,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Helmet_02_Mask": {
+    "kind": "native",
+    "width": 10,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Player_Idle_00": {
+    "kind": "native",
+    "width": 14,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Player_Idle_01": {
+    "kind": "native",
+    "width": 14,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Player_Idle_02": {
+    "kind": "native",
+    "width": 14,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Player_Walking_00": {
+    "kind": "native",
+    "width": 14,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Player_Walking_01": {
+    "kind": "native",
+    "width": 14,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Player_Walking_02": {
+    "kind": "native",
+    "width": 14,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Player_Walking_03": {
+    "kind": "native",
+    "width": 14,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Player_Idle_00_Mask": {
+    "kind": "native",
+    "width": 14,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Player_Idle_01_Mask": {
+    "kind": "native",
+    "width": 14,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Player_Idle_02_Mask": {
+    "kind": "native",
+    "width": 14,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Player_Walking_00_Mask": {
+    "kind": "native",
+    "width": 14,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Player_Walking_01_Mask": {
+    "kind": "native",
+    "width": 14,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Player_Walking_02_Mask": {
+    "kind": "native",
+    "width": 14,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Player_Walking_03_Mask": {
+    "kind": "native",
+    "width": 14,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Jump_Effect": {
+    "kind": "native",
+    "width": 9,
+    "height": 4,
+    "frames": 1,
+    "source": "Player.h"
+  },
+  "RollsLeft": {
+    "kind": "native",
+    "width": 12,
+    "height": 8,
+    "frames": 1,
+    "source": "Player.h"
+  },
+  "NPC": {
+    "kind": "native",
+    "width": 13,
+    "height": 16,
+    "frames": 3,
+    "source": "Player.h"
+  },
+  "NPC_EOG": {
+    "kind": "native",
+    "width": 12,
+    "height": 16,
+    "frames": 3,
+    "source": "Player.h"
+  },
+  "Recast": {
+    "kind": "native",
+    "width": 16,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "Recast_Mask": {
+    "kind": "native",
+    "width": 16,
+    "height": 16,
+    "frames": 1,
+    "source": "Player.h",
+    "bitmap_call": true
+  },
+  "ItemsBuilding_Top": {
+    "kind": "native",
+    "width": 28,
+    "height": 18,
+    "frames": 1,
+    "source": "Building.h"
+  },
+  "ItemsBuilding_Top_Mask": {
+    "kind": "mask",
+    "width": 28,
+    "height": 18,
+    "frames": 1,
+    "source": "Building.h"
+  },
+  "ItemsBuilding_Bottom": {
+    "kind": "native",
+    "width": 75,
+    "height": 28,
+    "frames": 1,
+    "source": "Building.h"
+  },
+  "RunesBuilding_Top": {
+    "kind": "native",
+    "width": 50,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h"
+  },
+  "RunesBuilding_Top_Mask": {
+    "kind": "mask",
+    "width": 50,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h"
+  },
+  "RunesBuilding_Bottom": {
+    "kind": "native",
+    "width": 50,
+    "height": 33,
+    "frames": 1,
+    "source": "Building.h"
+  },
+  "RunesBuilding_Side": {
+    "kind": "native",
+    "width": 21,
+    "height": 18,
+    "frames": 1,
+    "source": "Building.h"
+  },
+  "ShopKeeper_Item": {
+    "kind": "native",
+    "width": 16,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ShopKeeper_Common": {
+    "kind": "native",
+    "width": 46,
+    "height": 32,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ShopKeeper_Rune": {
+    "kind": "native",
+    "width": 16,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ShopKeeper_Panel": {
+    "kind": "native",
+    "width": 42,
+    "height": 24,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Effect_00": {
+    "kind": "native",
+    "width": 60,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Effect_01": {
+    "kind": "native",
+    "width": 60,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Effect_02": {
+    "kind": "native",
+    "width": 60,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Effect_03": {
+    "kind": "native",
+    "width": 60,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Effect_04": {
+    "kind": "native",
+    "width": 60,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Effect_05": {
+    "kind": "native",
+    "width": 60,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Names_00": {
+    "kind": "native",
+    "width": 60,
+    "height": 8,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Names_01": {
+    "kind": "native",
+    "width": 60,
+    "height": 8,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Names_02": {
+    "kind": "native",
+    "width": 60,
+    "height": 8,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Names_03": {
+    "kind": "native",
+    "width": 60,
+    "height": 8,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Names_04": {
+    "kind": "native",
+    "width": 60,
+    "height": 8,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Names_05": {
+    "kind": "native",
+    "width": 60,
+    "height": 8,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_HelmetBase": {
+    "kind": "native",
+    "width": 64,
+    "height": 8,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_PotionBase": {
+    "kind": "native",
+    "width": 64,
+    "height": 8,
+    "frames": 1,
+    "source": "Building.h"
+  },
+  "ItemShop_Potion_Mask": {
+    "kind": "native",
+    "width": 18,
+    "height": 8,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Helmet_Mask": {
+    "kind": "native",
+    "width": 28,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Helmet_00": {
+    "kind": "native",
+    "width": 28,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Helmet_01": {
+    "kind": "native",
+    "width": 28,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Helmet_02": {
+    "kind": "native",
+    "width": 28,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ItemShop_Potions": {
+    "kind": "native",
+    "width": 18,
+    "height": 16,
+    "frames": 3,
+    "source": "Building.h"
+  },
+  "RuneShop_Effect_00": {
+    "kind": "native",
+    "width": 58,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "RuneShop_Effect_01": {
+    "kind": "native",
+    "width": 58,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "RuneShop_Effect_02": {
+    "kind": "native",
+    "width": 58,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "RuneShop_Effect_03": {
+    "kind": "native",
+    "width": 58,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "RuneShop_Names_00": {
+    "kind": "native",
+    "width": 60,
+    "height": 8,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "RuneShop_Names_01": {
+    "kind": "native",
+    "width": 60,
+    "height": 8,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "RuneShop_Names_02": {
+    "kind": "native",
+    "width": 60,
+    "height": 8,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "RuneShop_Names_03": {
+    "kind": "native",
+    "width": 60,
+    "height": 8,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "RuneShop_Frame": {
+    "kind": "native",
+    "width": 64,
+    "height": 16,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "ClosedDoor": {
+    "kind": "native",
+    "width": 9,
+    "height": 14,
+    "frames": 1,
+    "source": "Building.h"
+  },
+  "Shop_Numbers": {
+    "kind": "native",
+    "width": 11,
+    "height": 13,
+    "frames": 15,
+    "source": "Building.h"
+  },
+  "UOM_GP": {
+    "kind": "native",
+    "width": 11,
+    "height": 13,
+    "frames": 1,
+    "source": "Building.h"
+  },
+  "UOM_SP": {
+    "kind": "native",
+    "width": 11,
+    "height": 13,
+    "frames": 1,
+    "source": "Building.h"
+  },
+  "Inventory_Marker": {
+    "kind": "native",
+    "width": 2,
+    "height": 2,
+    "frames": 1,
+    "source": "Building.h"
+  },
+  "Inventory_Helmet_Marker": {
+    "kind": "native",
+    "width": 4,
+    "height": 7,
+    "frames": 1,
+    "source": "Building.h"
+  },
+  "LeaveShop": {
+    "kind": "native",
+    "width": 50,
+    "height": 8,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "LeaveShop_Image": {
+    "kind": "native",
+    "width": 42,
+    "height": 24,
+    "frames": 1,
+    "source": "Building.h",
+    "bitmap_call": true
+  },
+  "Bye": {
+    "kind": "native",
+    "width": 37,
+    "height": 13,
+    "frames": 1,
+    "source": "Building.h"
+  },
+  "Bye_Mask": {
+    "kind": "mask",
+    "width": 37,
+    "height": 13,
+    "frames": 1,
+    "source": "Building.h"
+  }
+}

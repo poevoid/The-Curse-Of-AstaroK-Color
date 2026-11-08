@@ -1,0 +1,13 @@
+#include <Arduino.h>
+#include "../utils/Constants.h"
+#include "Images.h"
+#include "../artdata/Building.h"
+#include "../artdata/Splash.h"
+#include "../artdata/Castle.h"
+#include "../artdata/Title.h"
+#include "../artdata/Trees.h"
+#include "../artdata/Player.h"
+#include "../artdata/Gauges.h"
+#include "../artdata/Enemies.h"
+#include "../artdata/Runes.h"
+#include "../artdata/Town.h"
