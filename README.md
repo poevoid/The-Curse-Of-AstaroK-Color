@@ -1,235 +1,142 @@
-<a name="top"></a><img src="/distributable/Banner.png" data-canonical-src="/distributable/Banner.png" />
+# The Curse of Astarok — CHGame color port 1.3
 
-# The Curse of AstaroK
+This is **The Curse of Astarok**, the original Press Play On Tape town-and-dungeon game, **not Trials of Astarok**. The original game logic, 15 dungeon encounters, item/rune shops, conversations, inventory, music and sound-effect sequences are included.
 
-A push your luck Dungeon Crawl game where you need to release your town from the curse of AztaroK
+Target: **CHGame Rev0 / CH32X035G8U6 / 128×128 ST7735**, official **CHGame 0.3.0** board package.
 
-<br/>
+The original 128×64 view is centered at native pixel size, with black space above and below. It is not stretched. The game keeps its original 40 fps logic rate. A finished color frame is sent by CHGfx/DMA; the panel is not blanked while drawing. Version 1.1 fixes negative-coordinate village objects, stores artwork directly in flash without frame-time decompression, draws two display pixels per packed byte, and transfers only the active 128×64 view after the first frame.
 
+## Play immediately
 
-# Background
+Copy **sdcard/GAMES/ASTAROK.CHG** to **GAMES/ASTAROK.CHG**, and **sdcard/ASTAROK.ART** to **ASTAROK.ART at the card root**. Launch **CURSE OF ASTAROK** from the SD game menu. The ART file contains your color sprites and color palette. Restart the game after replacing it. If it is missing or incompatible, the game falls back to its built-in artwork and header colors.
 
-The evil Astarok has cast a nasty curse on the folk of Griford and turned them into pumpkins!  The town's people have asked you to battle the AstaroK and his evil friends in their hideout - an old castle on the edge of town.
+**CurseOfAstarok.chgame** is also supplied for the official cartridge tools/uploader. **firmware/** contains the same application as `.bin` and `.hex`. These are application images for the official **0x3000** application layout; keep your existing bootloader.
 
-You need to fight your way in the dark castle of the evil AstaroK, by casting runes that will release different powers depending on the combinations cast. You start with a limited arsenal of skills but will be able to acquire more advanced skills with the SP (Skill Points) that you gain by winning battles in the dark castle.  You may also win gold too if you are lucky! When you win a battle, you can continue further into the dungeon or head back to town to buy more supplies with your winnings.  
+To update from 1.0–1.2, replace `GAMES/ASTAROK.CHG` and copy `ASTAROK.ART` to the card root and launch it again from the SD menu. Older saves are imported with default options; your saved progress and sound preference are retained. Your existing `SpriteColors.h` assignments can also be retained when rebuilding the new source.
 
-Be careful, if you are defeated in a battle you will be warp back to town but with half of the SP that you gained during the game.  You will also forfeit a helmet or potion as punishment.
+## Controls
 
-<br/>
+| Button | Action |
+|---|---|
+| D-pad Left / Right | Walk; navigate inventory panes |
+| Up | Jump/select runes to recast; enter a shop at its door |
+| Down / Up | Navigate shop goods and menu choices |
+| A | Start; talk/read; confirm; cast/recast runes; advance battle messages |
+| B | Open/close inventory; cancel; toggle sound on the title screen |
+| START, short press | Open/close the options screen; the game pauses |
+| Hold START, 3 seconds | Return to the SD game menu |
+| Hold Down on title screen | Original game's bootloader shortcut |
 
+In a fight, press A to cast. Move underneath a rune and press Up to mark/unmark it for recasting, then press A again. B opens your items during your turn. After winning, walk onward or return to town.
 
-# Instructions
+Save and restore at the **sword/save post** to the left of the initial starting point: stand nearby and press A. Saving uses CHGame's CRC-checked, versioned flash save record and retains the original manual-save behavior. Changing sound options preserves your last saved game. These standard CHGame save pages are shared with other games; another game can replace the record. A failed write shows **SAVE FAILED** and does not claim success.
 
-[The Town](#town)<br/>
-[Inventory](#inv)<br/>
-[Saving and Restoring](#save)<br/>
-[Item Shop](#item)<br/>
-[Rune Shop](#rune)<br/>
-[Enemies](#enemies)<br/>
-[Battling Enemies](#battle)<br/>
-[Rewards](#rewards)<br/>
+## Options screen
 
-<br/>
+Tap **START** from any game screen. The centered box uses the inventory’s border artwork and Font3x6, with the paused game visible around its edges. The four rows are:
 
+| Row | Setting |
+|---|---|
+| DISPLAY | COLOR or MONO |
+| MONO TINT | One of the 15 visible palette colors |
+| PLAYER | DEFAULT (the header artwork colors), or one of the 15 visible colors |
+| RUMBLE | ON or OFF; defaults OFF |
 
-## The Town <a name="town"></a>
+Use **Up/Down** to select a row and **Left/Right** to change it. **A** also advances the value. Press **B or START** to close. Settings save once when you close a changed menu; no writes occur while cycling values. Your last manually saved game is retained rather than replaced by current unsaved progress.
 
-[Top](#top)
+The game state and animation clock pause while options are open. Closing controls are consumed so they do not also cast a rune, open inventory or advance dialogue. Rumble stops when the menu opens. Holding START for three seconds still returns to the SD game menu.
 
-<img src="distributable/Astarok_Town_01.png" data-canonical-src="distributable/Astarok_Town_01.png" width="256px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="distributable/Astarok_Town_02.png" data-canonical-src="distributable/Astarok_Town_02.png" width="256px" />
-<br/>
+MONO uses black plus the chosen tint, including the original dark town silhouettes. Player color changes the **BASE** pixels in COLOR mode on the player’s casting/walking/idle animations. Explicitly painted colors (eyes, boots, etc.) keep their assigned slots; helmets retain their own sprite colors. In MONO, the player follows the overall tint so the image stays monochrome. DEFAULT restores the individual `SpriteColors.h` assignments.
 
-As you wander around the town of Griford, you can talk to people to gain information or enter shops to buy supplies used when battling the monster in the castle. 
+## Rumble pack — GPIO1
 
-<br/>
+The output is the board's **GPIO1 label: PC0, expansion header H1 pin 8**, not Arduino digital pin 1. It is an **active-high 3.3 V control signal** for a suitable motor/rumble driver. Share ground with the driver and power the motor from a supply matched to it. Do not connect a motor directly to the GPIO; a bare ERM motor needs a transistor/MOSFET driver and flyback protection.
 
-## Inventory and Statistics <a name="inv"></a>
+Enable **RUMBLE: ON** in options after connecting the driver. Hardware **TIM2 channel 4** supplies **20 kHz PWM**, independent of the TIM1 speaker output and the LCD. No delay is added to battle logic.
 
-[Top](#top)
+Every actual loss of player HP triggers an impact. Armor reduction is applied first, and a lethal attack is capped to the HP the player actually had. Fully blocked attacks and healing create no pulse. Astarok's direct HP drain uses the same path. Sound can be muted while rumble remains enabled.
 
-The Inventory and Statistics panel shows vital information regarding your inventory and health and any attacking enemy details.
+The default envelope has a 20 ms spin-up kick, then damage-scaled duty (about 31–100% with full strength at 40 HP lost). Duration is **50 ms + 12 ms per HP lost**, capped at **650 ms**. More damage therefore produces stronger, longer feedback. Turning rumble off, opening options, or finishing the pulse stops the output. These physical strength values need calibration for your motor/driver.
 
-<img src="distributable/Astarok_Inv_01.png" data-canonical-src="distributable/Astarok_Inv_01.png" width="256px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="distributable/Astarok_Inv_02.png" data-canonical-src="distributable/Astarok_Inv_02.png" width="256px" />
-<br/>
-<sup>Fig 1: Inventory&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig 2: Health and Statistics</sup>
-<br/>
+Edit **CurseOfAstarok/RumbleConfig.h** to adjust PWM frequency, minimum duty, full-strength damage threshold, kick and duration limits. The pin mapping is fixed to GPIO1/PC0.
 
-<img src="distributable/Astarok_Inv_03.png" data-canonical-src="distributable/Astarok_Inv_03.png" width="256px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="distributable/Astarok_Inv_04.png" data-canonical-src="distributable/Astarok_Inv_04.png" width="256px" />
-<br/>
-<sup>Fig 3: Purchased Rune Combinations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig 4: Enemy Statistics</sup>
-<br/>
+## Edit multicolor sprites and the palette
 
-The Inventory and Statistics panel can be accessed from any screen simply by pressing the B button.  Once exposed, you can navigate through the panels using the Left and Right buttons.
+Run **EDIT_SPRITES.bat**, or `python tools/sprite_editor.py`. The editor uses Python 3’s built-in Tkinter; the normal Windows Python installer needs no pip packages or virtual environment.
 
-The 'Inventory' pane will allow you to scroll through purchased items and selecting them for use using the A button.  The current helmet being worn is denoted with an 'E' symbol on the right of the dialogue.  Using a potion will deplete the number adjacent to it until all of that type of potion has been consumed at which point the item itself will be removed from the dialogue.
+1. Search/select a color sprite, then choose its animation frame.
+2. Choose a palette brush and left-drag to paint. A sprite can use multiple colors.
+3. Choose **ALPHA**, or right-drag, to make pixels transparent. The checkerboard shows transparency; **BLACK** paints opaque black.
+4. Double-click any RGB swatch except black to edit that color. The palette is shared across color-mode sprites.
+5. Click **Save + export SD art**, copy **sdcard/ASTAROK.ART** to the SD card root, and restart. Art/palette edits need no firmware recompile.
 
-<br/>
+There are **147 color sprite sheets / 190 animation frames**. The editor exposes color artwork only. It never changes the original monochrome artwork or its masks, so switching to MONO always uses the protected original images. Custom color silhouettes have their own transparency; you do not edit separate masks.
 
-## Saving and Restoring a Game <a name="save"></a>
+| Brush | Meaning |
+|---|---|
+| BLACK through WHITE | 16 opaque RGB palette slots; black stays slot 0 |
+| BASE | Inherit this sprite/frame’s header assignment; player BASE pixels follow the PLAYER option |
+| ALPHA | Fully transparent pixel; leave the scene underneath visible |
 
-[Top](#top)
+ALPHA is a dedicated brush/encoded value, separate from all 16 RGB slots. It is binary transparency (opaque or transparent), with no partial-alpha blending. **Import PNG** reads transparent pixels as ALPHA and maps opaque pixels to the closest palette color. **Export PNG** preserves transparency and opaque black. Frames must keep their original dimensions. PNGs resolve BASE to its current header color; use the text source to retain BASE assignments during external editing.
 
-Game progress can be saved and restored.
+**Undo/Redo** operates on pixel edits. **Reset frame** restores that color frame’s original template. The included color art gives the player gold facial details and brown boots, and the pumpkin a green stem, while leaving the rest ready for your edits.
 
-<img src="distributable/Astarok_Save_01.png" data-canonical-src="distributable/Astarok_Save_01.png" width="256px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="distributable/Astarok_Save_02.png" data-canonical-src="distributable/Astarok_Save_02.png" width="256px" />
-<br/>
-<sup>Fig 1: The Excalibur Sword&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig 2: Save and Restore Menu</sup>
-<br/>
+For direct text editing, use **art/ColorSprites.txt**:
 
-<img src="distributable/Astarok_Save_03.png" data-canonical-src="distributable/Astarok_Save_03.png" width="256px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="distributable/Astarok_Save_04.png" data-canonical-src="distributable/Astarok_Save_04.png" width="256px" />
-<br/>
-<sup>Fig 3: Prompt to Overwrite Existing Game&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig 4: Confirmation of Save</sup>
-<br/>
+```text
+@SpriteName
+..GG..
+.G22G.
+G2002G
+---
+..GG..
+.G22G.
+G2002G
+```
 
-The Save and Restore menu is revealed by pressing the 'A' button when standing in front of Excalibur (**Fig 1**) which is to the left of the player's starting position in the game.  The Save and Restore dialogue allows you to save a game in progress, start a new game or restore a game previously saved (**Fig 2**).  The last option to restore a game will only be visible if a game has been previously saved.  When saving a game, you will be prompted to confirm the overwrite of any existing, saved game (**Fig 3**).
+`.` means ALPHA, `0..9/A..F` select the 16 RGB slots, `G` is BASE, and `---` separates frames. RGB values live in **art/ColorPalette.json**. Keep sprite names, dimensions and frame counts. Run **REBUILD_ART.bat** or `python tools/color_art.py` to export the SD file after direct edits. **ColorBase.txt** is the reset/difference template; **MonochromeSprites.txt** is a read-only reference, and **color_manifest.json** records color asset IDs and dimensions.
 
-<br/>
+## Header color assignments
 
-## Item Shop <a name="item"></a>
+**CurseOfAstarok/SpriteColors.h** still defines the named colors and per-family/per-sprite BASE assignments:
 
-[Top](#top)
+```cpp
+#define SPRITE_PLAYER COLOR_CYAN
+#define SPRITE_SKELETON COLOR_SILVER
+#define ART_PUMPKIN COLOR_ORANGE
+```
 
-The item shop sells helmets and potions to be used in battle.
+Rune symbols and potion types retain their named frame assignments. Header assignment changes require recompiling/uploading; the editor’s RGB palette and explicit pixel slots are loaded from the SD file. **BASE** pixels follow header/player settings. Slot 0 must remain black. `ASTAROK_PALETTE` is the built-in fallback palette and the independent monochrome tint palette; editor RGB changes affect COLOR mode only.
 
-<img src="distributable/Astarok_ItemShop_01.png" data-canonical-src="distributable/Astarok_ItemShop_01.png" width="256px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="distributable/Astarok_ItemShop_02.png" data-canonical-src="distributable/Astarok_ItemShop_02.png" width="256px" />
-<br/>
-<sup>Fig 1: The Item Shop&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig 2: Helmets and Potions for Sale</sup>
-<br/>
+## Compile/upload
 
-<img src="distributable/Astarok_ItemShop_03.png" data-canonical-src="distributable/Astarok_ItemShop_03.png" width="256px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="distributable/Astarok_ItemShop_04.png" data-canonical-src="distributable/Astarok_ItemShop_04.png" width="256px" />
-<br/>
-<sup>Fig 3: Buying a helmet or item&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig 4: Enough money?</sup>
-<br/>
+Board Manager URL:
 
-<img src="distributable/Astarok_ItemShop_05.png" data-canonical-src="distributable/Astarok_ItemShop_05.png" width="256px" />
-<sup>Fig 5: Items in your Inventory</sup>
-<br/>
+https://github.com/bateske/CHGame/releases/latest/download/package_chgame_index.json
 
-<br/>
+Open **CurseOfAstarok/CurseOfAstarok.ino**, keeping its complete folder intact. Use the libraries included in the official CHGame board package; Arduboy libraries are not required.
 
-The Item Shop is entered by pressing the Up button while standing in front of the door (**Fig 1**).  Once inside, you can scroll up and down to look at the goods for sale (**Fig 2**) and selecting items to purchase by pressing the A button (**Fig 3**).  Pressing A a second time will confirm the purchase or pressing B will cancel the transaction.  If you do not have enough gold to purchase the item a message will remind you of your bad luck (**Fig 4**).  Purchased items can be viewed in the inventory panel (**Fig 5**).
+| Arduino setting | Value |
+|---|---|
+| Board | CHGame Rev0 |
+| Optimize | Smallest (-Os), without LTO |
+| C Runtime | Newlib Nano |
+| Peripherals | Game |
+| USB | Upload only |
 
-The item details are listed below:
+CLI equivalent with an installed board package:
 
-<br/>
+```sh
+arduino-cli compile -b CHGame:ch32v:rev0:opt=osstd,rtlib=nano,periph=game,usb=uploadonly --export-binaries CurseOfAstarok
+```
 
-| Item | Cost | Description |
-| :--- | :---: | :---- |
-| Crystal&nbsp;Helmet | 65&nbsp;GP | <ul><li>10 additional DEF points </li><li>10 additional attack points</li></ul>  |
-| High&nbsp;Helmet | 40&nbsp;GP | <ul><li>5 additional DEF points </li><li>5 additional attack points</li></ul> |
-| Round&nbsp;Helmet | 40&nbsp;GP | <ul><li>5 additional DEF points</li></ul> |
-| | | |
-| Fire&nbsp;Potion | 20&nbsp;GP | When used, the Fire Potion inflicts an additional 10 points of damage on top of your next cast.  If attacking a Gelatinous Cube, the Fire Potion has double the effect (ie 20 points of damage) |
-| Health&nbsp;Potion | 15&nbsp;GP | <ul><li>20 HP points added immediately</li></ul> |
-| Speed&nbsp;Potion | 20&nbsp;GP | When used, the Speed Potion will allow you to cast the runes an additional time.  Multiple speed potions can be consumed to increase the number of recasts from 3 to 4 or more! |
+Select your CHGame USB port and use Upload. The current build leaves about 1 KB before the standard save pages; check build size if adding firmware code. Color art is RLE encoded on the SD card with a fixed sector cache, so editing more sprites does not increase firmware flash or static RAM usage. Extremely detailed art can cause more SD reads; use a reasonably fast card. The hot bitmap renderer uses -O2 locally; the rest of the program still builds with -Os, without LTO.
 
-Notes:
+## Validation and source
 
-* You can buy one of each helmet type.  To wear a hat, access you inventory items and select the helmet using the Up / Down buttons and the A button.
-* You can purchase up to 6 of each potion type.  You can use these items at any time while in the town of Griford or as part of your turn in a fight.
+See **VALIDATION.md** for compilation, memory use and automated checks. No physical CHGame was available: LCD orientation, speaker volume, physical rumble response, USB/SD launch and power-cycle save behavior still need a device check. The included previews are actual host-rendered game screens.
 
-<br/>
+Original source: https://github.com/Press-Play-On-Tape/The-Curse-Of-AstaroK
 
-## Rune Shop <a name="rune"></a>  
-
-[Top](#top)
-
-Purchasing a rune with Skill Points will unlock that combination and make it available within a fight.  If you cast the combination, the special powers are released.
-
-<img src="distributable/Astarok_RuneShop_01.png" data-canonical-src="distributable/Astarok_RuneShop_01.png" width="256px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="distributable/Astarok_RuneShop_02.png" data-canonical-src="distributable/Astarok_RuneShop_02.png" width="256px" />
-<br/>
-<sup>Fig 1: The Rune Shop&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig 2: Fire Blaze Rune Combination</sup>
-<br/>
-
-<img src="distributable/Astarok_RuneShop_03.png" data-canonical-src="distributable/Astarok_RuneShop_03.png" width="256px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="distributable/Astarok_RuneShop_04.png" data-canonical-src="distributable/Astarok_RuneShop_04.png" width="256px" />
-<br/>
-<sup>Fig 3: Healing Wind Rune Combination&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig 4: Rising Star Rune Combination</sup>
-<br/>
-
-<img src="distributable/Astarok_RuneShop_05.png" data-canonical-src="distributable/Astarok_RuneShop_05.png" width="256px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="distributable/Astarok_RuneShop_06.png" data-canonical-src="distributable/Astarok_RuneShop_06.png" width="256px" />
-<br/>
-<sup>Fig 5: Venom Mist Rune Combination&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig 6: Ruunes in your Inventory</sup>
-<br/>
-
-
-The Rune Shop is entered by pressing the Up button while standing in front of the door (**Fig 1**).  As with the Item Shop, runes can be reviewed and purchased using the Up / Down buttons and the A button. Each rune combination shows the combination's name, the damage it inflicts and the purchase price (in SP on the right)  (**Fig 2 - 5**).  The rune combinations themselves are shown with special characters &ne; and ? indicating that the runes should not equal each other or the rune value can be any value, respectively.  Purchased runes can be views in your inventory (**Fig 6**).
-
-The rune combination and details are listed below:
-
-<br/>
-
-| Item | Cost | Description |
-| :--- | --- | :--- |
-| Fire&nbsp;Blaze | 30&nbsp;SP | <ul><li>20 damage points applied immediately</li><li>5 additional damage points applied to the next two casts for Skeletons, Werewolves and Astarok </li><li>10 additional damage points applied to the next two casts for Gelatinous Cubes.</ul>  |
-| Healing&nbsp;Wind | 25&nbsp;SP | <ul><li>20 HP points applied immediately</li></ul> |
-| Rising&nbsp;Star | 35&nbsp;SP | <ul><li>35 damage points applied immediately</li></ul> |
-| Venom&nbsp;Mist | 35&nbsp;SP | <ul><li>20 damage points applied immediately for Skeletons, Werewolves, Gelatinous Cubes and Astarok </li><li>2 additional damage points applied to the next two casts for Gelatinous Cubes, Small Werewolves and Astarok.</li><li>4 additional damage points that are applied to the next two casts for the Large Werewolf only.</li><li>The Venom Mist does not affect the Skeleton.</li></ul> |
-
-Notes:
-
-* For rune combinations that apply damage on subsequent casts, the additional damage points are forfeited if you do not cast a scoring sequence in the next cast(s).
-* You can only purchase a rune combination once.  Its power remains with you when used and even if you die.
-* Rune combinations do not need to be cast in the exact sequence listed however must contain the exact tiles.  In the Venom Mist, all tiles must be different.  In the Fire Blaze combination, you must throw the two pairs shown - the remaining rune can be another of the same runes (thus making a Full House) or a different rune altogether.
-
-<br/>
-
-
-## Enemies <a name="enemies"></a>
-
-[Top](#top)
-
-You will encounter different enemies in the dungeons. The various potions may in ineffective on some enemies and may have an extended effect on others. You will need to determine what works best to maximise the damage you can inflict.
-<br/>
-
-
-## Battling Enemies <a name="battle"></a>
-
-[Top](#top)
-
-<img src="distributable/Astarok_Fight_01.gif" data-canonical-src="distributable/Astarok_Fight_01.gif" width="256px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="distributable/Astarok_Fight_02.gif" data-canonical-src="distributable/Astarok_Fight_02.gif" width="256px" />
-<br/>
-<sup>Fig 1: Cast a rune combination&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig 2: Inflict damage on enemy</sup>
-<br/>
-
-<img src="distributable/Astarok_Fight_03.gif" data-canonical-src="distributable/Astarok_Fight_03.gif" width="256px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="distributable/Astarok_Fight_04.gif" data-canonical-src="distributable/Astarok_Fight_04.gif" width="256px" />
-<br/>
-<sup>Fig 3: Additional damage from previous cast&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig 4: The enemy inflics damage</sup>
-<br/>
-
-You may enter the dungeon at any time, with or without supplies you may have bought from the store.  Upon entering the castle, you will encounter an enemy with minimal DEF and HP but as you progress further down into the labyrinth of dungeons the enemies will become stronger.
-
-An enemy may attack you as you enter a dungeon before you have a chance to attack first (**Fig 4**).  When it is your turn to attack you cast the runes by pressing the 'A' button.  Once they have rolled to a stop you can choose to keep some and recast the remainder by jumping and touching those you wish to recast.  Once all of the runes to recast have been selected, press the 'A' button to recast the selected rune.  You can typically recast up to 3 times however if you have consumed a 'Speed Potion' you can increase this for the current attack.  
-
-If you cast a rune combination that matches one of the runes sets purchased from the town or you cast a combination from the 'standard' set below, you may skip a recast by not selecting any runes to recast and simply pressing the 'A' button.
-
-If a scoring rune combination is cast, the damage is inflicted on the enemy immediately (**Fig 1 and 2**).  This may be followed by a secondary damage caused by a Fire Blaze or Venom Mist rune as these have a residual effect that lasts over two subsequent attacks (**Fig 3**).
-
-<br/>
-
-| Combination | Attack Points Inflicted |
-| :--- | :---: | 
-| Two&nbsp;Pair | 10 |
-| Three&nbsp;of&nbsp;a&nbsp;Kind | 20 |
-| Full&nbsp;House | 25 |
-| Four&nbsp;of&nbsp;a&nbsp;Kind | 30 |
-| Five&nbsp;of&nbsp;a&nbsp;Kind | 45 |
-
-<br/>
-
-At any time when it is your turn to attack, you can access you inventory and put on a helmet or drink a potion.
-
-<br/>
-
-## Rewards <a name="rewards"></a>
-
-[Top](#top)
-
-After successfully defeating an enemy your will be rewarded immediately with some SP - the amount is random and will typically increase as you delve deeper into the dungeons below the castle.  Occasionally, you will be rewarded with GP while still in the dungeon and, again, the amount is both random and will increase as you fight stronger and stronger enemies.  
-
-<img src="distributable/Astarok_HP_01.png" data-canonical-src="distributable/Astarok_HP_01.png" width="256px" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="distributable/Astarok_HP_02.png" data-canonical-src="distributable/Astarok_HP_02.png" width="256px" />
-<br/>
-<sup>Fig 1: HP Hidden in Town&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig 2: Random HP Amount Gained</sup>
-<br/>
-
-You may also be rewarded randomly with some HP but these are placed in the village for you to discover. However, you must leave the dungeon to find the HP which will result in you having to re-enter the dungeons at level one and fight the same enemies again.
-
+Original game and artwork © 2019 Press Play On Tape, BSD-3-Clause. The tooling retains an ArdBitmap codec derived from Ignacio Vina's Apache-2.0 code, modified by Filmote and Vampirics; the handheld reads original native bitmaps from flash and custom RLE color sprites from SD. CHGame and CHGfx notices accompany the linked firmware in **licenses/**. New port/editor code is MIT; see **LICENSE**. This is an unofficial port.
