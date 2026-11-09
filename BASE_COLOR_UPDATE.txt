@@ -1,0 +1,19 @@
+Base-color editor update (apply after the previous palette update)
+
+Extract these files into your existing CurseOfAstarok_CHGame project folder,
+replacing the matching files. Your ColorSprites.txt and custom palette are not
+included or overwritten.
+
+Recompile/upload the sketch once to add support for saved sprite base colors.
+
+Open EDIT_SPRITES.bat. Select a sprite, then use "Sprite BASE (all frames)".
+The dropdown changes the color used by BASE brush pixels in every animation
+frame of that sprite. It does not repaint explicitly colored or ALPHA pixels.
+Choose HEADER (default) to restore the original header/frame assignments.
+The game's PLAYER option can still override BASE pixels on player sprites.
+Monochrome artwork, masks and tint colors are unchanged.
+
+Save + export SD art, copy sdcard/ASTAROK.ART to the SD card root and restart.
+After the initial firmware update, changing base colors needs only this SD file
+replacement. The editor stores your choices in art/ColorBases.json, created on
+save. Keep that JSON alongside ColorSprites.txt and ColorPalette.json.

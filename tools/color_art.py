@@ -2,7 +2,7 @@
 Monochrome artwork and firmware source are never written by this module.
 """
 from pathlib import Path
-import json,struct
+import json,struct,re
 ROOT=Path(__file__).resolve().parents[1]
 SYMBOLS='0123456789ABCDEFG.'
 MAGIC=b'ACA2'
@@ -30,7 +30,60 @@ def write_art(blocks,path=None):
  text='; COLOR MODE ONLY. . = transparent, 0..F = palette, G = inherited BASE color.\n; @Name starts a sprite sheet; --- separates animation frames.\n\n'
  for n,frames in blocks.items():text+='@'+n+'\n'+'\n---\n'.join('\n'.join(f) for f in frames)+'\n\n'
  Path(path or ROOT/'art/ColorSprites.txt').write_text(text)
-def load_palette():return json.loads((ROOT/'art/ColorPalette.json').read_text())
+# Migration reference only: the palette shipped before header RGB syncing.
+# Actual displayed colors are read from the user's header, never from this list.
+LEGACY_HEADER_PALETTE=[
+ [0,0,0],[206,146,99],[255,48,49],[255,117,0],
+ [255,203,74],[82,170,74],[140,235,173],[74,223,255],
+ [132,146,206],[57,73,255],[156,81,239],[255,121,189],
+ [148,97,74],[107,113,123],[189,190,189],[255,255,255]]
+def validate_palette(palette):
+ if not isinstance(palette,list) or len(palette)!=16 or any(not isinstance(c,list) or len(c)!=3 or any(type(v) is not int or not 0<=v<=255 for v in c) for c in palette):raise ValueError('Palette needs 16 RGB colors, 0..255')
+ if palette[0]!=[0,0,0]:raise ValueError('Palette slot 0 must stay black')
+ return palette
+def header_palette():
+ """Read ASTAROK_PALETTE RGB calls (or raw RGB565 literals), without eval."""
+ text=(ROOT/'CurseOfAstarok/SpriteColors.h').read_text()
+ text=re.sub(r'/\*.*?\*/|//[^\r\n]*','',text,flags=re.S)
+ match=re.search(r'\bASTAROK_PALETTE\s*\[\s*(?:16)?\s*\]\s*=\s*\{(.*?)\}',text,re.S)
+ if not match:raise ValueError('Cannot find ASTAROK_PALETTE[16] in SpriteColors.h')
+ entries=[];depth=0;start=0;body=match[1]
+ for i,c in enumerate(body):
+  if c=='(':depth+=1
+  elif c==')':depth-=1
+  elif c==',' and depth==0:entries.append(body[start:i].strip());start=i+1
+ if body[start:].strip():entries.append(body[start:].strip())
+ if depth or len(entries)!=16:raise ValueError('SpriteColors.h needs exactly 16 palette entries')
+ def integer(token):
+  token=token.strip();m=re.fullmatch(r'(0[xX][0-9a-fA-F]+|[0-9]+)[uUlL]*',token)
+  if not m:raise ValueError('Use integer RGB channels or RGB565 literals in ASTAROK_PALETTE')
+  literal=m[1];return int(literal,16 if literal.lower().startswith('0x') else 10)
+ palette=[]
+ for entry in entries:
+  rgb=re.fullmatch(r'ASTAROK_RGB\s*\((.*?)\)',entry,re.S)
+  if rgb:
+   parts=rgb[1].split(',')
+   if len(parts)!=3:raise ValueError('ASTAROK_RGB needs three RGB channels')
+   palette.append([integer(part) for part in parts])
+  else:
+   value=integer(entry)
+   if not 0<=value<=65535:raise ValueError('RGB565 palette values must fit 16 bits')
+   red=value>>11;green=(value>>5)&63;blue=value&31
+   palette.append([(red<<3)|(red>>2),(green<<2)|(green>>4),(blue<<3)|(blue>>2)])
+ return validate_palette(palette)
+def load_palette(header=None):
+ """Header edits win; unchanged slots retain saved editor RGB choices."""
+ header=header_palette() if header is None else validate_palette(header)
+ path=ROOT/'art/ColorPalette.json'
+ saved=validate_palette(json.loads(path.read_text())) if path.exists() else header
+ path=ROOT/'art/ColorPaletteHeader.json'
+ reference=validate_palette(json.loads(path.read_text())) if path.exists() else LEGACY_HEADER_PALETTE
+ return [list(h if h!=old else custom) for h,old,custom in zip(header,reference,saved)]
+def save_palette(palette,header=None):
+ header=header_palette() if header is None else validate_palette(header);validate_palette(palette)
+ for name,data in [('ColorPalette.json',palette),('ColorPaletteHeader.json',header)]:
+  path=ROOT/'art'/name;temp=path.with_suffix('.tmp');temp.write_text(json.dumps(data,indent=2)+'\n');temp.replace(path)
+
 def load_bases():
  path=ROOT/'art/ColorBases.json'
  return json.loads(path.read_text()) if path.exists() else {}
@@ -60,8 +113,7 @@ def build_pack(blocks=None,palette=None,bases=None):
  if set(blocks)!=set(sprites):raise ValueError('Keep the original sprite names')
  bases=load_bases() if bases is None else bases
  if not isinstance(bases,dict) or set(bases)-set(sprites) or any(type(c) is not int or not 0<=c<16 for c in bases.values()):raise ValueError('Sprite bases must name an existing sprite and an opaque palette slot, 0..15')
- if len(palette)!=16 or any(len(c)!=3 or any(not isinstance(v,int) or not 0<=v<=255 for v in c) for c in palette):raise ValueError('Palette needs 16 RGB colors, 0..255')
- if palette[0]!=[0,0,0]:raise ValueError('Palette slot 0 must stay black')
+ validate_palette(palette)
  data=bytearray(512);count=0
  for name,info in sprites.items():
   frames=blocks[name];w=info['width'];h=info['height'];nf=info['frames']
@@ -79,7 +131,7 @@ def build_pack(blocks=None,palette=None,bases=None):
  for i,c in enumerate(palette):struct.pack_into('<H',data,16+i*2,rgb565(c))
  return bytes(data),count
 def rebuild():
- data,count=build_pack();out=ROOT/'sdcard/ASTAROK.ART';out.parent.mkdir(parents=True,exist_ok=True);out.write_bytes(data)
+ header=header_palette();palette=load_palette(header);data,count=build_pack(palette=palette);out=ROOT/'sdcard/ASTAROK.ART';out.parent.mkdir(parents=True,exist_ok=True);out.write_bytes(data);save_palette(palette,header)
  return count,len(data)
 def header_colors():
  """Resolve the existing header's named family/default frame colors for preview."""

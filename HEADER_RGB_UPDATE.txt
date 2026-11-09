@@ -1,0 +1,33 @@
+Header RGB synchronization update
+
+Extract these changed files into your existing CurseOfAstarok_CHGame project
+folder, replacing the matching files. This includes the previous editor tools
+(bucket, zoom and ALPHA replacement). Your SpriteColors.h, artwork, custom
+palette and base-color choices are not included or overwritten.
+
+The editor now reads the RGB entries in ASTAROK_PALETTE from
+CurseOfAstarok/SpriteColors.h when it opens. Change the ASTAROK_RGB(r,g,b)
+entries there, then reopen the editor to see the new swatches and previews.
+
+If the editor is already open, click Reload header RGB. This explicitly loads
+ALL header RGB colors, replacing any temporary editor RGB overrides. Base
+assignment previews also refresh. Ordinary Save + export automatically picks
+up header edits too, updating just the changed header slots and keeping GUI
+RGB overrides on unchanged slots.
+
+After updating colors, click Save + export SD art, copy sdcard/ASTAROK.ART to
+the SD card root and restart the game. Color-mode graphics then use the same
+exported palette shown in the editor. The command-line rebuild tool also reads
+the header RGB entries.
+
+RGB values use integer channels 0..255. Decimal and hexadecimal literals,
+comments, multiline ASTAROK_RGB calls and raw RGB565 entries are supported.
+Palette slot 0 must remain black; ALPHA remains a separate transparent brush.
+
+Saved editor RGB overrides are preserved across sessions unless their header
+slot changed. The new art/ColorPaletteHeader.json, created on export, records
+the last header RGB values so the editor can detect those changes. Keep it
+with ColorPalette.json when backing up or moving your art folder.
+
+The editor does not write to SpriteColors.h or monochrome art/masks. These
+files update the Python editor and exporter; the game firmware is unchanged.

@@ -8,7 +8,7 @@ NAMES=['BLACK','LT BROWN','RED','ORANGE','GOLD','GREEN','MINT','CYAN','SKY','BLU
 class Editor(tk.Tk):
  def __init__(self):
   super().__init__();self.title('Curse of Astarok - Color Sprite Editor');self.geometry('1200x860');self.minsize(940,700)
-  self.blocks=art.load_art();self.base=art.load_art(art.ROOT/'art/ColorBase.txt');self.palette=art.load_palette();self.tints=art.header_colors();self.bases=art.load_bases();self.name=None;self.frame=0;self.dirty=False;self.paint=None;self.brush='G';self.history=[];self.redo_stack=[];self.last=None;self.zoom=None;self.stroke_started=False;self.only_alpha=False
+  self.blocks=art.load_art();self.base=art.load_art(art.ROOT/'art/ColorBase.txt');self.header_palette=art.header_palette();self.palette=art.load_palette(self.header_palette);self.tints=art.header_colors();self.bases=art.load_bases();self.name=None;self.frame=0;self.dirty=False;self.paint=None;self.brush='G';self.history=[];self.redo_stack=[];self.last=None;self.zoom=None;self.stroke_started=False;self.only_alpha=False
   left=ttk.Frame(self,padding=10);left.pack(side='left',fill='y');ttk.Label(left,text='COLOR sprites only').pack(anchor='w')
   self.search=tk.StringVar();self.search.trace_add('write',lambda *_:self.filter());ttk.Entry(left,textvariable=self.search,width=30).pack(fill='x',pady=8)
   self.list=tk.Listbox(left,width=29,exportselection=False);self.list.pack(fill='both',expand=True);self.list.bind('<<ListboxSelect>>',self.select)
@@ -18,7 +18,8 @@ class Editor(tk.Tk):
   basebar=ttk.Frame(right);basebar.pack(fill='x',pady=(8,0))
   ttk.Label(basebar,text='Sprite BASE (all frames):').pack(side='left')
   self.base_choice=ttk.Combobox(basebar,state='readonly',values=['HEADER (default)']+NAMES[:16],width=19);self.base_choice.pack(side='left',padx=8);self.base_choice.bind('<<ComboboxSelected>>',self.change_base)
-  pal=ttk.LabelFrame(right,text='Paint colors - double-click a color to change its RGB (color mode only)',padding=5);pal.pack(fill='x',pady=8);self.buttons=[]
+  ttk.Button(basebar,text='Reload header RGB',command=self.reload_header).pack(side='right')
+  pal=ttk.LabelFrame(right,text='Palette follows SpriteColors.h changes - double-click for an editor RGB override',padding=5);pal.pack(fill='x',pady=8);self.buttons=[]
   for i,n in enumerate(NAMES):
    code=art.SYMBOLS[i];b=tk.Button(pal,text=n,width=8,command=lambda c=code:self.set_brush(c));b.grid(row=i//9,column=i%9,sticky='ew',padx=1,pady=1);b.bind('<Double-Button-1>',lambda e,j=i:self.change_rgb(j));self.buttons.append(b)
   for i in range(9):pal.columnconfigure(i,weight=1)
@@ -76,6 +77,18 @@ class Editor(tk.Tk):
   self.dirty=True;self.redraw();self.refresh_palette()
   self.status.set('Sprite BASE changed for all frames. Painted colors and ALPHA stay unchanged. Save + export, copy ASTAROK.ART and restart.')
  def set_brush(self,c):self.brush=c;self.refresh_palette()
+ def sync_header(self,force=False):
+  header=art.header_palette();tints=art.header_colors()
+  palette=[list(h if force or h!=old else custom) for h,old,custom in zip(header,self.header_palette,self.palette)]
+  changed=palette!=self.palette
+  self.header_palette=header;self.palette=palette;self.tints=tints
+  if changed:self.dirty=True
+  self.redraw();self.refresh_palette()
+  return changed
+ def reload_header(self):
+  try:
+   self.sync_header(force=True);self.status.set('Loaded RGB colors from SpriteColors.h. Save + export, then copy ASTAROK.ART to update the game.')
+  except Exception as e:messagebox.showerror('Could not read header colors',str(e),parent=self)
  def change_rgb(self,i):
   if not 1<=i<=15:return
   result=colorchooser.askcolor(self.resolved(art.SYMBOLS[i]),parent=self,title=NAMES[i]+' - color palette RGB')
@@ -162,8 +175,9 @@ class Editor(tk.Tk):
   if self.name and messagebox.askyesno('Reset color frame','Restore this color frame to its original base artwork?',parent=self):self.checkpoint();self.blocks[self.name][self.frame]=self.base[self.name][self.frame][:];self.dirty=True;self.redraw()
  def save(self):
   try:
+   self.sync_header()
    data,n=art.build_pack(self.blocks,self.palette,self.bases)
-   art.write_art(self.blocks);(art.ROOT/'art/ColorPalette.json').write_text(json.dumps(self.palette,indent=2)+'\n')
+   art.write_art(self.blocks);art.save_palette(self.palette,self.header_palette)
    (art.ROOT/'art/ColorBases.json').write_text(json.dumps(self.bases,indent=2)+'\n')
    out=art.ROOT/'sdcard/ASTAROK.ART';tmp=out.with_suffix('.tmp');tmp.write_bytes(data);tmp.replace(out)
    self.dirty=False;self.status.set(f'Saved {n} edited color sheets ({len(data)} bytes). Copy sdcard/ASTAROK.ART to the card root and restart; no recompile.');return True

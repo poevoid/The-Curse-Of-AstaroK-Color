@@ -1,0 +1,26 @@
+Sprite editor tools update
+
+Apply after the Base Color editor update. Extract these changed files into your
+existing project folder and reopen EDIT_SPRITES.bat. Your artwork, palette and
+base-color choices are not included or overwritten. The game firmware and SD
+art format stay the same; there is no firmware update for these editor tools.
+
+Pencil: normal drawing with the selected palette brush.
+Bucket: click to fill a connected region of the same pixel value. It uses four
+neighbors and does not cross diagonal gaps. BASE, explicit colors and ALPHA are
+separate pixel values even when their displayed colors look identical.
+Alpha only: drag to color transparent pixels while protecting opaque pixels.
+Replace all ALPHA: replace every transparent pixel in the CURRENT FRAME with
+the chosen opaque color or BASE. Other frames and opaque pixels are untouched.
+Select a brush other than ALPHA to enable this button.
+
+Right-drag always erases to ALPHA. Middle-click picks a pixel's brush.
+Undo/Redo works for a stroke, a bucket fill or an ALPHA replacement as one step.
+
+Zoom: use the +/- buttons, zoom dropdown (1x through 64x), Fit, or mouse wheel
+over the canvas. Mouse-wheel zoom stays near the pointer. Use the horizontal
+and vertical scrollbars to pan at high zoom. Zoom never changes sprite pixels
+or dimensions; PNG export remains at native resolution.
+
+Save + export SD art and copy ASTAROK.ART to the SD card root as before.
+Monochrome artwork and masks remain protected.

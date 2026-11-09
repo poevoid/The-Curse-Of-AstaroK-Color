@@ -53,7 +53,8 @@ void Runes::checkRuneCombination(Player &player, MatchedRuneCombination &matched
 
   // Check for healing wind ..
 
-  if (player.getRuneCombination(static_cast<uint8_t>(RuneCombinationType_Purchased::HealingWind) && sortedRunes[0] == 2 && sortedRunes[1] == 2 && sortedRunes[2] == 4 && sortedRunes[3] == 4 && sortedRunes[4] == 4) > 0) {
+  if (player.getRuneCombination(static_cast<uint8_t>(RuneCombinationType_Purchased::HealingWind)) > 0 &&
+      sortedRunes[0] == 2 && sortedRunes[1] == 2 && sortedRunes[2] == 4 && sortedRunes[3] == 4 && sortedRunes[4] == 4) {
 
     matchedRuneCombination.id = static_cast<uint8_t>(RuneCombinationType_Purchased::HealingWind);
     memcpy_P(&matchedRuneCombination.dmg1, &RuneCombinations[(matchedRuneCombination.id * Constants::RuneCombinations_RecordLength) + Constants::RuneCombinations_DMG_1], 4);

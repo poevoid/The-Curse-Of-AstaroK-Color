@@ -265,9 +265,9 @@ c:/users/songtrichell/appdata/local/arduino15/packages/chgame/tools/riscv-none-e
 c:/users/songtrichell/appdata/local/arduino15/packages/chgame/tools/riscv-none-embed-gcc/8.2.0/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(read.o)
                               c:/users/songtrichell/appdata/local/arduino15/packages/chgame/tools/riscv-none-embed-gcc/8.2.0/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libc_nano.a(lib_a-readr.o) (_read)
 c:/users/songtrichell/appdata/local/arduino15/packages/chgame/tools/riscv-none-embed-gcc/8.2.0/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libc_nano.a(lib_a-memcmp.o)
-                              C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o (memcmp)
+                              C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o (memcmp)
 c:/users/songtrichell/appdata/local/arduino15/packages/chgame/tools/riscv-none-embed-gcc/8.2.0/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imacxw/ilp32\libgcc.a(save-restore.o)
-                              C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o (__riscv_save_12)
+                              C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o (__riscv_save_12)
 
 Allocating common symbols
 Common symbol       size              file
@@ -276,43 +276,43 @@ errno               0x4               c:/users/songtrichell/appdata/local/arduin
 
 Discarded input sections
 
- .text          0x0000000000000000        0x0 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN9PortAudio7enabledEv
-                0x0000000000000000        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZL11convSpan666PhPKhm
-                0x0000000000000000       0x74 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000       0x74 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN5Print11printNumberEmh
-                0x0000000000000000       0x70 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000       0x70 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZNK9IPAddress7printToER5Print
-                0x0000000000000000       0x56 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- .text._sbrk    0x0000000000000000       0x2e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- .text._write   0x0000000000000000       0x20 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000       0x56 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ .text._sbrk    0x0000000000000000       0x2e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ .text._write   0x0000000000000000       0x20 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .data.AHBPrescTable
-                0x0000000000000000       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .data.APBAHBPrescTable
-                0x0000000000000000       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss.CTLR2_tmp
-                0x0000000000000000        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss.NVIC_Priority_Group
-                0x0000000000000000        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN5audioL4melIE
-                0x0000000000000000        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN5audioL4melTE
-                0x0000000000000000        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN5audioL5notesE
-                0x0000000000000000        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN5audioL9scoreWaitE
-                0x0000000000000000        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZZ18gfx_directFillRecthhhhtE6colour
-                0x0000000000000000        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata.CFGHR_tmpA
-                0x0000000000000000        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata._ZN5audioL10scoreLoopsE
-                0x0000000000000000        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata.curbrk.4282
-                0x0000000000000000        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000000000        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text          0x0000000000000000        0x0 C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a(startup_ch32yyxx.S.o)
  .data          0x0000000000000000        0x0 C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a(startup_ch32yyxx.S.o)
  .bss           0x0000000000000000        0x0 C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a(startup_ch32yyxx.S.o)
@@ -860,7 +860,7 @@ Linker script and memory map
                 0x000000000000c700                __FLASH_SIZE = 0xc700
                 0x00000000000047f0                __RAM_SIZE = 0x47f0
 START GROUP
-LOAD C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+LOAD C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
 LOAD c:/users/songtrichell/appdata/local/arduino15/packages/chgame/tools/riscv-none-embed-gcc/8.2.0/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libprintf.a
 LOAD C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a
 END GROUP
@@ -898,7 +898,7 @@ END GROUP
                 0x0000000000003100                . = ALIGN (0x40)
  *fill*         0x00000000000030e0       0x20 
 
-.text           0x0000000000003100     0xad1c
+.text           0x0000000000003100     0xad20
                 0x0000000000003100                . = ALIGN (0x4)
  *(.text)
  .text          0x0000000000003100       0xa8 c:/users/songtrichell/appdata/local/arduino15/packages/chgame/tools/riscv-none-embed-gcc/8.2.0/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libc_nano.a(lib_a-memset.o)
@@ -932,970 +932,971 @@ END GROUP
                 0x00000000000031fc                __riscv_restore_1
  *(.text.*)
  .text._ZN22MatchedRuneCombination11getPrevDmg1E9EnemyType.constprop.144
-                0x0000000000003208       0x34 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003208       0x34 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN6Player18setPlayerDirectionE15PlayerDirection.constprop.89
-                0x000000000000323c       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000323c       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN6Player20getDistinctItemCountEv.constprop.74
-                0x0000000000003256       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003256       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN5Runes4sortEPhh.constprop.56
-                0x0000000000003278       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003278       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN5Runes22anyRotatingOrRerollingEv.constprop.53
-                0x00000000000032b2       0x30 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000032b2       0x30 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN12Arduboy2Base13writePageByteEiih.constprop.28
-                0x00000000000032e2       0x4a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000032e2       0x4a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN5Enemy11updateFrameER11Arduboy2Exth.constprop.13
-                0x000000000000332c       0x26 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000332c       0x26 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text.CDC_ep2_answer.constprop.2
-                0x0000000000003352       0x2c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003352       0x2c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text.delay.part.0
-                0x000000000000337e       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000337e       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text.USB_EP0_copyDescr
-                0x0000000000003398       0x30 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003398       0x30 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text.USB_EP_init
-                0x00000000000033c8       0x68 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000033c8       0x68 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text.string_to_utf16le_descriptor
-                0x0000000000003430       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003430       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text.uint32_to_hex_string
-                0x000000000000344e       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000344e       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text.CDC_flush
-                0x000000000000348c       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000348c       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN3wch6usbcdc13USBSerialCH325writeEh
-                0x00000000000034c2       0x78 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000034c2       0x78 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN3wch6usbcdc13USBSerialCH325flushEv
-                0x000000000000353a        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000353a        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN3wch6usbcdc13USBSerialCH324peekEv
-                0x0000000000003542        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003542        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN3wch6usbcdc13USBSerialCH324readEv
-                0x0000000000003546       0x54 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003546       0x54 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN3wch6usbcdc13USBSerialCH329availableEv
-                0x000000000000359a        0x6 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000359a        0x6 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text.EXTI_GetITStatus
-                0x00000000000035a0       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000035a0       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z19_gpio_exti_callbackt
-                0x00000000000035be       0x2a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000035be       0x2a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text.getCurrentMicros
-                0x00000000000035e8       0x62 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000035e8       0x62 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN6Stream9timedReadEv
-                0x000000000000364a       0x34 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000364a       0x34 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN6Stream14readBytesUntilEcPcj
-                0x000000000000367e       0x2e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000367e       0x2e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN6Stream9readBytesEPcj
-                0x00000000000036ac       0x2e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000036ac       0x2e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN5Print5writeEPKhj
-                0x00000000000036da       0x2e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000036da       0x2e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN5Print17availableForWriteEv
-                0x0000000000003708        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003708        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN2sdL5claimEv
-                0x000000000000370c       0x46 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000370c       0x46 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN2sdL4xferEh
-                0x0000000000003752       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003752       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN2sdL4rd32Ev
-                0x000000000000376a       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000376a       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN2sdL3cmdEhm
-                0x0000000000003784       0x4a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003784       0x4a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN2sdL4waitEb
-                0x00000000000037ce       0x34 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000037ce       0x34 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN2sdL7releaseEv
-                0x0000000000003802       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003802       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN2sd4readEmPh
-                0x0000000000003838       0x68 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003838       0x68 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN3fat4readEPKNS_3RunEmmPh.constprop.133
-                0x00000000000038a0       0x2a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000038a0       0x2a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN2sd4initEv
-                0x00000000000038ca      0x11a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000038ca      0x11a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN3fat5mountEPh
-                0x00000000000039e4      0x190 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000039e4      0x190 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN3fat12_GLOBAL__N_14nextEmPhRm
-                0x0000000000003b74       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003b74       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN3fat4runsERKNS_4FileEPNS_3RunEhPh.constprop.132
-                0x0000000000003bee       0xb6 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003bee       0xb6 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN3fat4findEPKcRNS_4FileEPh.constprop.130
-                0x0000000000003ca4       0xf4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003ca4       0xf4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z12gfx_fillRectiiiih
-                0x0000000000003d98       0x64 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003d98       0x64 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z8gfx_waitv
-                0x0000000000003dfc       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003dfc       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z13gfx_flushRectiiii.part.4
-                0x0000000000003e0c      0x1d8 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003e0c      0x1d8 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZL13buildLutOtherPKt
-                0x0000000000003fe4       0x7e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000003fe4       0x7e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z9gfx_data8h
-                0x0000000000004062       0x44 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004062       0x44 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z7gfx_cmdh
-                0x00000000000040a6       0x80 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000040a6       0x80 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZL12rstDriveHighv
-                0x0000000000004126       0x26 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004126       0x26 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZL8setupJobiiii.constprop.31
-                0x000000000000414c      0x1aa C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000414c      0x1aa C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN4saveL5crc32EPKhm
-                0x00000000000042f6       0x34 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000042f6       0x34 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN4save4readEmhtPh.constprop.159
-                0x000000000000432a       0xce C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000432a       0xce C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z18chgame_readButtonsv
-                0x00000000000043f8       0x64 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000043f8       0x64 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN5audioL3oneEtthh.part.4
-                0x000000000000445c       0x60 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000445c       0x60 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN5audioL4toneEtb
-                0x00000000000044bc       0x98 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000044bc       0x98 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN5audio5setOnEb.part.6
-                0x0000000000004554       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004554       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN5audio5setOnEb
-                0x000000000000456c       0xc6 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000456c       0xc6 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN11Arduboy2Ext10randomLFSREhh.part.2
-                0x0000000000004632       0x48 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004632       0x48 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZL9findStylePKh
-                0x000000000000467a       0x46 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000467a       0x46 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z11spriteColorPKhhhh
-                0x00000000000046c0       0x86 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000046c0       0x86 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZL6outputh
-                0x0000000000004746       0xc6 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004746       0xc6 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z14portRumbleStopv
-                0x000000000000480c       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000480c       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z16portRumbleDamageh
-                0x0000000000004820       0x6a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004820       0x6a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN6Reader4nextEv
-                0x000000000000488a       0xdc C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000488a       0xdc C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z12colorArtDrawPKhhiih
-                0x0000000000004966      0x1fe C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004966      0x1fe C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z10portBitmapiiPKhiihhhS0_
-                0x0000000000004b64      0x268 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004b64      0x268 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZL4drawiiPKhS0_hhh.constprop.116
-                0x0000000000004dcc       0x9a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004dcc       0x9a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN8SpritesB16drawExternalMaskEiiPKhS1_hh.constprop.112
-                0x0000000000004e66        0xe C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004e66        0xe C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN8SpritesB9drawEraseEiiPKhh
-                0x0000000000004e74       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004e74       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN8SpritesB14drawSelfMaskedEiiPKhh
-                0x0000000000004e84       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004e84       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN8SpritesB13drawOverwriteEiiPKhh
-                0x0000000000004e94       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004e94       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN9ArdBitmapILs128ELs64EE23drawCompressed_WithMaskEssPKhS2_h.constprop.113
-                0x0000000000004ea4       0x8e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004ea4       0x8e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN9ArdBitmapILs128ELs64EE14drawCompressedEssPKhhh.constprop.111
-                0x0000000000004f32       0x8c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004f32       0x8c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z8portFilliiiih
-                0x0000000000004fbe       0x4c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000004fbe       0x4c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN6Player6renderER11Arduboy2ExtR9ArdBitmapILs128ELs64EEb.constprop.15
-                0x000000000000500a      0x1cc C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000500a      0x1cc C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN12Arduboy2Base7displayEb.part.10
-                0x00000000000051d6      0x19e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000051d6      0x19e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z21portApplyVideoPalettev
-                0x0000000000005374       0x8e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005374       0x8e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN7Font3x65writeEh
-                0x0000000000005402       0xa4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005402       0xa4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN7Font3x612printMessageEhPKhb.constprop.115
-                0x00000000000054a6       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000054a6       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN7Font3x612printMessageEh.constprop.114
-                0x0000000000005520       0x12 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005520       0x12 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN7Font3x65printEPKc
-                0x0000000000005532       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005532       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN7Font3x611printNumberEh.constprop.106
-                0x0000000000005550       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005550       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN7Font3x613printNumberlnEh.constprop.19
-                0x000000000000558a       0x12 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000558a       0x12 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z18titleScreen_Renderv
-                0x000000000000559c       0x66 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000559c       0x66 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z19splashScreen_Renderv
-                0x0000000000005602       0xac C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005602       0xac C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z15stealRandomItemv
-                0x00000000000056ae       0x62 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000056ae       0x62 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z14drawMessageBoxaahh
-                0x0000000000005710       0xb0 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005710       0xb0 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z14drawMessageBoxhh
-                0x00000000000057c0       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000057c0       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z23playGame_HandleMessagesRh
-                0x00000000000057fe       0x2c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000057fe       0x2c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z24playGame_UpdateInventoryh
-                0x000000000000582a      0x1dc C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000582a      0x1dc C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z20playGame_SaveMessagehhhh
-                0x0000000000005a06       0x26 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005a06       0x26 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z31playGame_ChangeViewState_Commonv
-                0x0000000000005a2c       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005a2c       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z19playGame_InitEnenmyh
-                0x0000000000005a62       0x62 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005a62       0x62 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z22playGame_setPlayerYPosv
-                0x0000000000005ac4       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005ac4       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z29playGame_RenderShopItemOrRunePKhS0_
-                0x0000000000005b02       0x2a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005b02       0x2a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z20playGame_RenderRuneshhh
-                0x0000000000005b2c       0x5c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005b2c       0x5c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z21playGame_RenderNumberh
-                0x0000000000005b88       0x44 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005b88       0x44 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z24playGame_RenderTownItems14RenderPosition
-                0x0000000000005bcc      0x1dc C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005bcc      0x1e4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z20playGame_NoneMessagev
-                0x0000000000005da8       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005db0       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z25playGame_YouRolledMessageh
-                0x0000000000005dc6       0x30 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005dce       0x30 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z20playGame_CommonPricePKhh
-                0x0000000000005df6       0x2e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005dfe       0x2e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z24playGame_CommonShopItemsPKhb
-                0x0000000000005e24       0xc8 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005e2c       0xc8 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z29playGame_RenderCastleInteriorv
-                0x0000000000005eec      0x108 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005ef4      0x108 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text.startup._ZN17PlayGameStateVarsC2Ev
-                0x0000000000005ff4       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000005ffc       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN8PortSave3getIhEEviRT_.isra.16.constprop.163
-                0x0000000000006012       0x12 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000601a       0x12 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z18playGame_ResetGamev
-                0x0000000000006024       0x32 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000602c       0x32 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN5Runes20checkRuneCombinationER6PlayerR22MatchedRuneCombination.constprop.54
-                0x0000000000006056      0x2ae C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000605e      0x2a8 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN5Enemy10renderNameER7Font3x6.constprop.21
-                0x0000000000006304       0x58 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000006306       0x58 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN5Enemy6renderER11Arduboy2ExtR9ArdBitmapILs128ELs64EER7Font3x6.constprop.12
-                0x000000000000635c      0x1aa C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000635e      0x1aa C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z15playGame_Renderv
-                0x0000000000006506      0xc3e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000006508      0xc3e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZL7silencev
-                0x0000000000007144       0x34 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000007146       0x34 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z15portAudioUpdatev
-                0x0000000000007178       0xd2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000717a       0xd2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZN12ArduboyTones5tonesEPKt.constprop.93
-                0x000000000000724a       0x30 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000724c       0x30 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z24playGame_ChangeViewState9ViewState
-                0x000000000000727a      0x10a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000727c      0x10a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z27playGame_ProcessAorUpButtonv
-                0x0000000000007384      0x18c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000007386      0x18c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z32playGame_handleLeftRightMovementhhah
-                0x0000000000007510       0xae C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000007512       0xae C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z17playGame_Activatev
-                0x00000000000075be       0x3c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000075c0       0x3c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._ZL11writeRecordv
-                0x00000000000075fa      0x106 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000000075fc      0x106 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text._Z17playGame_SaveGamev
-                0x0000000000007700       0x54 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000007702       0x54 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .text.startup._GLOBAL__I_65535_0_CurseOfAstarok.ino.cpp.o.8172
-                0x0000000000007754       0x62 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- .text._init    0x00000000000077b6        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
-                0x00000000000077b6                _init
+                0x0000000000007756       0x62 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ .text._init    0x00000000000077b8        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+                0x00000000000077b8                _init
  .text.startup.main
-                0x00000000000077b8     0x1c46 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
-                0x00000000000077b8                main
+                0x00000000000077ba     0x1c46 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+                0x00000000000077ba                main
  .text.USBFS_IRQHandler
-                0x00000000000093fe      0x42c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
-                0x00000000000093fe                USBFS_IRQHandler
+                0x0000000000009400      0x42c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+                0x0000000000009400                USBFS_IRQHandler
  .text.SystemInit
-                0x000000000000982a       0x42 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
-                0x000000000000982a                SystemInit
+                0x000000000000982c       0x42 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+                0x000000000000982c                SystemInit
  .text.while1_handler
-                0x000000000000986c        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
-                0x000000000000986c                TIM1_CC_IRQHandler
-                0x000000000000986c                TIM2_UP_IRQHandler
-                0x000000000000986c                USBPD_IRQHandler
-                0x000000000000986c                PVD_IRQHandler
-                0x000000000000986c                Break_Point_Handler
-                0x000000000000986c                TIM2_TRG_COM_IRQHandler
-                0x000000000000986c                TIM2_CC_IRQHandler
-                0x000000000000986c                SPI1_IRQHandler
-                0x000000000000986c                AWU_IRQHandler
-                0x000000000000986c                Ecall_M_Mode_Handler
-                0x000000000000986c                DMA1_Channel4_IRQHandler
-                0x000000000000986c                ADC1_IRQHandler
-                0x000000000000986c                TIM2_BRK_IRQHandler
-                0x000000000000986c                USART3_IRQHandler
-                0x000000000000986c                DMA1_Channel7_IRQHandler
-                0x000000000000986c                USBPDWakeUp_IRQHandler
-                0x000000000000986c                I2C1_EV_IRQHandler
-                0x000000000000986c                USART4_IRQHandler
-                0x000000000000986c                DMA1_Channel6_IRQHandler
-                0x000000000000986c                TIM3_IRQHandler
-                0x000000000000986c                TIM1_TRG_COM_IRQHandler
-                0x000000000000986c                DMA1_Channel1_IRQHandler
-                0x000000000000986c                DMA1_Channel8_IRQHandler
-                0x000000000000986c                PIOC_IRQHandler
-                0x000000000000986c                DMA1_Channel5_IRQHandler
-                0x000000000000986c                TIM1_UP_IRQHandler
-                0x000000000000986c                WWDG_IRQHandler
-                0x000000000000986c                Ecall_U_Mode_Handler
-                0x000000000000986c                SW_Handler
-                0x000000000000986c                TIM1_BRK_IRQHandler
-                0x000000000000986c                OPA_IRQHandler
-                0x000000000000986c                USART2_IRQHandler
-                0x000000000000986c                DMA1_Channel2_IRQHandler
-                0x000000000000986c                FLASH_IRQHandler
-                0x000000000000986c                USBFSWakeUp_IRQHandler
-                0x000000000000986c                USART1_IRQHandler
-                0x000000000000986c                I2C1_ER_IRQHandler
+                0x000000000000986e        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+                0x000000000000986e                TIM1_CC_IRQHandler
+                0x000000000000986e                TIM2_UP_IRQHandler
+                0x000000000000986e                USBPD_IRQHandler
+                0x000000000000986e                PVD_IRQHandler
+                0x000000000000986e                Break_Point_Handler
+                0x000000000000986e                TIM2_TRG_COM_IRQHandler
+                0x000000000000986e                TIM2_CC_IRQHandler
+                0x000000000000986e                SPI1_IRQHandler
+                0x000000000000986e                AWU_IRQHandler
+                0x000000000000986e                Ecall_M_Mode_Handler
+                0x000000000000986e                DMA1_Channel4_IRQHandler
+                0x000000000000986e                ADC1_IRQHandler
+                0x000000000000986e                TIM2_BRK_IRQHandler
+                0x000000000000986e                USART3_IRQHandler
+                0x000000000000986e                DMA1_Channel7_IRQHandler
+                0x000000000000986e                USBPDWakeUp_IRQHandler
+                0x000000000000986e                I2C1_EV_IRQHandler
+                0x000000000000986e                USART4_IRQHandler
+                0x000000000000986e                DMA1_Channel6_IRQHandler
+                0x000000000000986e                TIM3_IRQHandler
+                0x000000000000986e                TIM1_TRG_COM_IRQHandler
+                0x000000000000986e                DMA1_Channel1_IRQHandler
+                0x000000000000986e                DMA1_Channel8_IRQHandler
+                0x000000000000986e                PIOC_IRQHandler
+                0x000000000000986e                DMA1_Channel5_IRQHandler
+                0x000000000000986e                TIM1_UP_IRQHandler
+                0x000000000000986e                WWDG_IRQHandler
+                0x000000000000986e                Ecall_U_Mode_Handler
+                0x000000000000986e                SW_Handler
+                0x000000000000986e                TIM1_BRK_IRQHandler
+                0x000000000000986e                OPA_IRQHandler
+                0x000000000000986e                USART2_IRQHandler
+                0x000000000000986e                DMA1_Channel2_IRQHandler
+                0x000000000000986e                FLASH_IRQHandler
+                0x000000000000986e                USBFSWakeUp_IRQHandler
+                0x000000000000986e                USART1_IRQHandler
+                0x000000000000986e                I2C1_ER_IRQHandler
  .text.HardFault_Handler
-                0x0000000000009870        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
-                0x0000000000009870                HardFault_Handler
+                0x0000000000009872        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+                0x0000000000009872                HardFault_Handler
  .text.NMI_Handler
-                0x0000000000009878        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
-                0x0000000000009878                NMI_Handler
+                0x000000000000987a        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+                0x000000000000987a                NMI_Handler
  .text.EXTI25_16_IRQHandler
-                0x000000000000987c       0x34 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
-                0x000000000000987c                EXTI25_16_IRQHandler
+                0x000000000000987e       0x34 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+                0x000000000000987e                EXTI25_16_IRQHandler
  .text.EXTI15_8_IRQHandler
-                0x00000000000098b0       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
-                0x00000000000098b0                EXTI15_8_IRQHandler
+                0x00000000000098b2       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+                0x00000000000098b2                EXTI15_8_IRQHandler
  .text.EXTI7_0_IRQHandler
-                0x00000000000098ea       0x38 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
-                0x00000000000098ea                EXTI7_0_IRQHandler
+                0x00000000000098ec       0x38 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+                0x00000000000098ec                EXTI7_0_IRQHandler
  .text.SysTick_Handler
-                0x0000000000009922       0xec C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
-                0x0000000000009922                SysTick_Handler
+                0x0000000000009924       0xec C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+                0x0000000000009924                SysTick_Handler
  .text.chgame_fault
-                0x0000000000009a0e       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
-                0x0000000000009a0e                chgame_fault
+                0x0000000000009a10       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+                0x0000000000009a10                chgame_fault
  .text.DMA1_Channel3_IRQHandler
-                0x0000000000009a48      0x12a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
-                0x0000000000009a48                DMA1_Channel3_IRQHandler
+                0x0000000000009a4a      0x12a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+                0x0000000000009a4a                DMA1_Channel3_IRQHandler
  .text.handle_reset
-                0x0000000000009b72       0x9a C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a(startup_ch32yyxx.S.o)
-                0x0000000000009b72                handle_reset
+                0x0000000000009b74       0x9a C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a(startup_ch32yyxx.S.o)
+                0x0000000000009b74                handle_reset
  .text.__libc_init_array
-                0x0000000000009c0c       0x6e c:/users/songtrichell/appdata/local/arduino15/packages/chgame/tools/riscv-none-embed-gcc/8.2.0/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libc_nano.a(lib_a-init.o)
-                0x0000000000009c0c                __libc_init_array
- .text.memcpy   0x0000000000009c7a       0xb2 c:/users/songtrichell/appdata/local/arduino15/packages/chgame/tools/riscv-none-embed-gcc/8.2.0/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libc_nano.a(lib_a-memcpy.o)
-                0x0000000000009c7a                memcpy
- .text.memcmp   0x0000000000009d2c       0x24 c:/users/songtrichell/appdata/local/arduino15/packages/chgame/tools/riscv-none-embed-gcc/8.2.0/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libc_nano.a(lib_a-memcmp.o)
-                0x0000000000009d2c                memcmp
+                0x0000000000009c0e       0x6e c:/users/songtrichell/appdata/local/arduino15/packages/chgame/tools/riscv-none-embed-gcc/8.2.0/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libc_nano.a(lib_a-init.o)
+                0x0000000000009c0e                __libc_init_array
+ .text.memcpy   0x0000000000009c7c       0xb2 c:/users/songtrichell/appdata/local/arduino15/packages/chgame/tools/riscv-none-embed-gcc/8.2.0/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libc_nano.a(lib_a-memcpy.o)
+                0x0000000000009c7c                memcpy
+ .text.memcmp   0x0000000000009d2e       0x24 c:/users/songtrichell/appdata/local/arduino15/packages/chgame/tools/riscv-none-embed-gcc/8.2.0/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libc_nano.a(lib_a-memcmp.o)
+                0x0000000000009d2e                memcmp
  *(.rodata)
- .rodata        0x0000000000009d50       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+ *fill*         0x0000000000009d52        0x2 
+ .rodata        0x0000000000009d54       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *(.rodata*)
  .rodata._Z24playGame_RenderTownItems14RenderPosition
-                0x0000000000009d60       0x20 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000009d64       0x20 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN5Enemy6renderER11Arduboy2ExtR9ArdBitmapILs128ELs64EER7Font3x6.constprop.12
-                0x0000000000009d80       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000009d84       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._Z15playGame_Renderv
-                0x0000000000009d94       0x5c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000009d98       0x5c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._Z24playGame_ChangeViewState9ViewState
-                0x0000000000009df0       0x28 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- .rodata.main   0x0000000000009e18       0x44 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000009df4       0x28 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ .rodata.main   0x0000000000009e1c       0x44 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata.USBFS_IRQHandler
-                0x0000000000009e5c       0x3c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000009e60       0x3c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZL10JumpHeight
-                0x0000000000009e98       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000009e9c       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZL11RandomNames
-                0x0000000000009eac       0x2f C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x0000000000009edb        0x1 
+                0x0000000000009eb0       0x2f C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x0000000000009edf        0x1 
  .rodata._ZL11font_images
-                0x0000000000009edc      0x101 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x0000000000009fdd        0x3 
+                0x0000000000009ee0      0x101 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x0000000000009fe1        0x3 
  .rodata._ZL12Player_Items.lto_priv.176
-                0x0000000000009fe0       0x1c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000000009fe4       0x1c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZL13gpio_irq_conf
-                0x0000000000009ffc       0xd0 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000a000       0xd0 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZL15ASTAROK_PALETTE.lto_priv.178
-                0x000000000000a0cc       0x20 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000a0d0       0x20 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZL16RuneCombinations.lto_priv.174
-                0x000000000000a0ec       0x28 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000a0f0       0x28 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZL16RuneCombinations.lto_priv.175
-                0x000000000000a114       0x28 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000a118       0x28 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZL5names
-                0x000000000000a13c       0x40 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000a140       0x40 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZL5world
-                0x000000000000a17c       0x6a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000a1e6        0x2 
+                0x000000000000a180       0x6a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000a1ea        0x2 
  .rodata._ZL6Levels
-                0x000000000000a1e8       0x96 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000a27e        0x2 
+                0x000000000000a1ec       0x96 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000a282        0x2 
  .rodata._ZL6player
-                0x000000000000a280       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000a296        0x2 
+                0x000000000000a284       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000a29a        0x2 
  .rodata._ZL7entries
-                0x000000000000a298      0x588 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000a29c      0x588 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZL8keywords
-                0x000000000000a820      0x140 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000a824      0x140 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZL8messages
-                0x000000000000a960      0x47d C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000addd        0x3 
+                0x000000000000a964      0x47d C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000ade1        0x3 
  .rodata._ZL9spinDelay
-                0x000000000000ade0        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000adea        0x2 
+                0x000000000000ade4        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000adee        0x2 
  .rodata._ZN12Arduboy2Base7displayEb.part.10.str1.4
-                0x000000000000adec        0xc C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000adf0        0xc C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN3fat4findEPKcRNS_4FileEPh.constprop.130.str1.4
-                0x000000000000adf8        0xc C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000adfc        0xc C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN4DataL5TreesE
-                0x000000000000ae04       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000ae08       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images10Arrow_DownE
-                0x000000000000ae18        0xb C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000ae23        0x1 
+                0x000000000000ae1c        0xb C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000ae27        0x1 
  .rodata._ZN6Images10ClosedDoorE
-                0x000000000000ae24       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000ae28       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images10Grass_maskE
-                0x000000000000ae38       0x24 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000ae3c       0x24 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images10Rune_FrameE
-                0x000000000000ae5c       0x24 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000ae60       0x24 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images10SavingPostE
-                0x000000000000ae80       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000aea2        0x2 
+                0x000000000000ae84       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000aea6        0x2 
  .rodata._ZN6Images10Tombstone2E
-                0x000000000000aea4       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000aea8       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images10Town_GoundE
-                0x000000000000aebc       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000aede        0x2 
+                0x000000000000aec0       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000aee2        0x2 
  .rodata._ZN6Images11Crates_MaskE
-                0x000000000000aee0       0x44 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000aee4       0x44 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images11HandPointerE
-                0x000000000000af24       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000af42        0x2 
+                0x000000000000af28       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000af46        0x2 
  .rodata._ZN6Images11Jump_EffectE
-                0x000000000000af44        0xb C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000af4f        0x1 
+                0x000000000000af48        0xb C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000af53        0x1 
  .rodata._ZN6Images11Numbers_4x4E
-                0x000000000000af50       0x2a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000af7a        0x2 
+                0x000000000000af54       0x2a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000af7e        0x2 
  .rodata._ZN6Images11Recast_MaskE
-                0x000000000000af7c       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000af9e        0x2 
+                0x000000000000af80       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000afa2        0x2 
  .rodata._ZN6Images11Skeleton_00E
-                0x000000000000afa0       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000afba        0x2 
+                0x000000000000afa4       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000afbe        0x2 
  .rodata._ZN6Images11Skeleton_01E
-                0x000000000000afbc       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000afd6        0x2 
+                0x000000000000afc0       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000afda        0x2 
  .rodata._ZN6Images11Skeleton_02E
-                0x000000000000afd8       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000aff2        0x2 
+                0x000000000000afdc       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000aff6        0x2 
  .rodata._ZN6Images11TitleScreenE
-                0x000000000000aff4      0x302 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b2f6        0x2 
+                0x000000000000aff8      0x302 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b2fa        0x2 
  .rodata._ZN6Images12AztaroK_DeadE
-                0x000000000000b2f8       0xaa C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b3a2        0x2 
+                0x000000000000b2fc       0xaa C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b3a6        0x2 
  .rodata._ZN6Images12AztaroK_LeftE
-                0x000000000000b3a4       0x38 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000b3a8       0x38 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images12Castle_FloorE
-                0x000000000000b3dc       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b3fe        0x2 
+                0x000000000000b3e0       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b402        0x2 
  .rodata._ZN6Images12Helmets_MaskE
-                0x000000000000b400        0xc C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000b404        0xc C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images12Inventory_BLE
-                0x000000000000b40c        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b416        0x2 
+                0x000000000000b410        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b41a        0x2 
  .rodata._ZN6Images12Inventory_BRE
-                0x000000000000b418        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b422        0x2 
+                0x000000000000b41c        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b426        0x2 
  .rodata._ZN6Images12Inventory_TLE
-                0x000000000000b424        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b42e        0x2 
+                0x000000000000b428        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b432        0x2 
  .rodata._ZN6Images12Inventory_TRE
-                0x000000000000b430        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b43a        0x2 
+                0x000000000000b434        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b43e        0x2 
  .rodata._ZN6Images12Player_MasksE
-                0x000000000000b43c       0x1c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000b440       0x1c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images12Pumpkin_MaskE
-                0x000000000000b458       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b476        0x2 
+                0x000000000000b45c       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b47a        0x2 
  .rodata._ZN6Images12Rune_SymbolsE
-                0x000000000000b478       0x2a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b4a2        0x2 
+                0x000000000000b47c       0x2a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b4a6        0x2 
  .rodata._ZN6Images12Shop_NumbersE
-                0x000000000000b4a4      0x14c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000b4a8      0x14c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images12gpGauge_MaskE
-                0x000000000000b5f0       0x50 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000b5f4       0x50 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images12hpGauge_MaskE
-                0x000000000000b640       0x33 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b673        0x1 
+                0x000000000000b644       0x33 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b677        0x1 
  .rodata._ZN6Images12spGauge_MaskE
-                0x000000000000b674       0x50 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000b678       0x50 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images13AztaroK_RightE
-                0x000000000000b6c4       0x38 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000b6c8       0x38 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images13Castle_LH_MidE
-                0x000000000000b6fc       0x12 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b70e        0x2 
+                0x000000000000b700       0x12 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b712        0x2 
  .rodata._ZN6Images13Castle_LH_TopE
-                0x000000000000b710        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b71a        0x2 
+                0x000000000000b714        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b71e        0x2 
  .rodata._ZN6Images13Castle_RH_TopE
-                0x000000000000b71c       0x5e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b77a        0x2 
+                0x000000000000b720       0x5e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b77e        0x2 
  .rodata._ZN6Images13Castle_StairsE
-                0x000000000000b77c       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b79e        0x2 
+                0x000000000000b780       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b7a2        0x2 
  .rodata._ZN6Images13MrBlinky_MaskE
-                0x000000000000b7a0       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000b7a4       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images13Player_ImagesE
-                0x000000000000b7b4       0x1c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000b7b8       0x1c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images13Rune_Frame_00E
-                0x000000000000b7d0       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b7ea        0x2 
+                0x000000000000b7d4       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b7ee        0x2 
  .rodata._ZN6Images13Rune_Frame_01E
-                0x000000000000b7ec       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b806        0x2 
+                0x000000000000b7f0       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b80a        0x2 
  .rodata._ZN6Images13Rune_Frame_02E
-                0x000000000000b808       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b822        0x2 
+                0x000000000000b80c       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b826        0x2 
  .rodata._ZN6Images13Rune_Frame_03E
-                0x000000000000b824       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b83e        0x2 
+                0x000000000000b828       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b842        0x2 
  .rodata._ZN6Images13Rune_Frame_04E
-                0x000000000000b840       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b85a        0x2 
+                0x000000000000b844       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b85e        0x2 
  .rodata._ZN6Images13Rune_Frame_05E
-                0x000000000000b85c       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b876        0x2 
+                0x000000000000b860       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b87a        0x2 
  .rodata._ZN6Images13Rune_Frame_06E
-                0x000000000000b878       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b892        0x2 
+                0x000000000000b87c       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b896        0x2 
  .rodata._ZN6Images13Rune_Frame_07E
-                0x000000000000b894       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b8ae        0x2 
+                0x000000000000b898       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b8b2        0x2 
  .rodata._ZN6Images13Rune_Frame_08E
-                0x000000000000b8b0       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b8ca        0x2 
+                0x000000000000b8b4       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b8ce        0x2 
  .rodata._ZN6Images13Rune_Frame_09E
-                0x000000000000b8cc       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b8e6        0x2 
+                0x000000000000b8d0       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b8ea        0x2 
  .rodata._ZN6Images13Rune_Frame_10E
-                0x000000000000b8e8       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b902        0x2 
+                0x000000000000b8ec       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b906        0x2 
  .rodata._ZN6Images13Rune_Frame_11E
-                0x000000000000b904       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b91e        0x2 
+                0x000000000000b908       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b922        0x2 
  .rodata._ZN6Images13Rune_Frame_12E
-                0x000000000000b920       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b93a        0x2 
+                0x000000000000b924       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b93e        0x2 
  .rodata._ZN6Images13Rune_Frame_13E
-                0x000000000000b93c       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b956        0x2 
+                0x000000000000b940       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b95a        0x2 
  .rodata._ZN6Images13Rune_Frame_14E
-                0x000000000000b958       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b972        0x2 
+                0x000000000000b95c       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b976        0x2 
  .rodata._ZN6Images13Rune_Frame_15E
-                0x000000000000b974       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b98e        0x2 
+                0x000000000000b978       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b992        0x2 
  .rodata._ZN6Images13Rune_Frame_16E
-                0x000000000000b990       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b9aa        0x2 
+                0x000000000000b994       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b9ae        0x2 
  .rodata._ZN6Images13SmallWerewolfE
-                0x000000000000b9ac        0xc C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000b9b0        0xc C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images14Arrow_Up_SmallE
-                0x000000000000b9b8        0x9 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000b9c1        0x3 
+                0x000000000000b9bc        0x9 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000b9c5        0x3 
  .rodata._ZN6Images14AztaroK_MiddleE
-                0x000000000000b9c4       0x5f C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000ba23        0x1 
+                0x000000000000b9c8       0x5f C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000ba27        0x1 
  .rodata._ZN6Images14GelatinousCubeE
-                0x000000000000ba24       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000ba28       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images14Helmet_00_MaskE
-                0x000000000000ba34       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000ba4a        0x2 
+                0x000000000000ba38       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000ba4e        0x2 
  .rodata._ZN6Images14Helmet_01_MaskE
-                0x000000000000ba4c       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000ba62        0x2 
+                0x000000000000ba50       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000ba66        0x2 
  .rodata._ZN6Images14Helmet_02_MaskE
-                0x000000000000ba64       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000ba7a        0x2 
+                0x000000000000ba68       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000ba7e        0x2 
  .rodata._ZN6Images14ItemShop_NamesE
-                0x000000000000ba7c       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000ba80       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images14Player_Idle_00E
-                0x000000000000ba94       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000bab2        0x2 
+                0x000000000000ba98       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000bab6        0x2 
  .rodata._ZN6Images14Player_Idle_01E
-                0x000000000000bab4       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000bad2        0x2 
+                0x000000000000bab8       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000bad6        0x2 
  .rodata._ZN6Images14Player_Idle_02E
-                0x000000000000bad4       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000baf2        0x2 
+                0x000000000000bad8       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000baf6        0x2 
  .rodata._ZN6Images14RuneShop_FrameE
-                0x000000000000baf4       0x82 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000bb76        0x2 
+                0x000000000000baf8       0x82 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000bb7a        0x2 
  .rodata._ZN6Images14RuneShop_NamesE
-                0x000000000000bb78       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000bb7c       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images15Enemy_InfoPanelE
-                0x000000000000bb88       0x4e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000bbd6        0x2 
+                0x000000000000bb8c       0x4e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000bbda        0x2 
  .rodata._ZN6Images15ItemShop_EffectE
-                0x000000000000bbd8       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000bbdc       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images15ItemShop_HelmetE
-                0x000000000000bbf0        0xc C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000bbf4        0xc C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images15LeaveShop_ImageE
-                0x000000000000bbfc       0x80 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000bc00       0x80 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images15RuneShop_EffectE
-                0x000000000000bc7c       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000bc80       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images15Rune_Frame_MaskE
-                0x000000000000bc8c       0x78 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000bc90       0x78 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images15ShopKeeper_ItemE
-                0x000000000000bd04       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000bd26        0x2 
+                0x000000000000bd08       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000bd2a        0x2 
  .rodata._ZN6Images15ShopKeeper_RuneE
-                0x000000000000bd28       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000bd4a        0x2 
+                0x000000000000bd2c       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000bd4e        0x2 
  .rodata._ZN6Images16Arrow_Down_SmallE
-                0x000000000000bd4c        0x9 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000bd55        0x3 
+                0x000000000000bd50        0x9 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000bd59        0x3 
  .rodata._ZN6Images16Castle_DarkBrickE
-                0x000000000000bd58       0x24 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000bd5c       0x24 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images16Castle_LH_BottomE
-                0x000000000000bd7c       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000bdb6        0x2 
+                0x000000000000bd80       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000bdba        0x2 
  .rodata._ZN6Images16Castle_RH_BottomE
-                0x000000000000bdb8       0x2a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000bde2        0x2 
+                0x000000000000bdbc       0x2a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000bde6        0x2 
  .rodata._ZN6Images16ItemShop_PotionsE
-                0x000000000000bde4       0x6e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000be52        0x2 
+                0x000000000000bde8       0x6e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000be56        0x2 
  .rodata._ZN6Images16ShopKeeper_PanelE
-                0x000000000000be54       0x80 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000be58       0x80 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images16SmallWerewolf_00E
-                0x000000000000bed4       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000beee        0x2 
+                0x000000000000bed8       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000bef2        0x2 
  .rodata._ZN6Images16SmallWerewolf_01E
-                0x000000000000bef0       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000bf0a        0x2 
+                0x000000000000bef4       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000bf0e        0x2 
  .rodata._ZN6Images16SmallWerewolf_02E
-                0x000000000000bf0c       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000bf26        0x2 
+                0x000000000000bf10       0x1a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000bf2a        0x2 
  .rodata._ZN6Images17AztaroK_Left_MaskE
-                0x000000000000bf28       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000bf5e        0x2 
+                0x000000000000bf2c       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000bf62        0x2 
  .rodata._ZN6Images17GelatinousCube_00E
-                0x000000000000bf60       0xa2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c002        0x2 
+                0x000000000000bf64       0xa2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c006        0x2 
  .rodata._ZN6Images17GelatinousCube_01E
-                0x000000000000c004       0xa2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c0a6        0x2 
+                0x000000000000c008       0xa2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c0aa        0x2 
  .rodata._ZN6Images17GelatinousCube_02E
-                0x000000000000c0a8       0xa2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c14a        0x2 
+                0x000000000000c0ac       0xa2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c14e        0x2 
  .rodata._ZN6Images17GelatinousCube_03E
-                0x000000000000c14c       0xa2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c1ee        0x2 
+                0x000000000000c150       0xa2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c1f2        0x2 
  .rodata._ZN6Images17ItemShop_Names_00E
-                0x000000000000c1f0       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c22e        0x2 
+                0x000000000000c1f4       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c232        0x2 
  .rodata._ZN6Images17ItemShop_Names_01E
-                0x000000000000c230       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c26e        0x2 
+                0x000000000000c234       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c272        0x2 
  .rodata._ZN6Images17ItemShop_Names_02E
-                0x000000000000c270       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c2ae        0x2 
+                0x000000000000c274       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c2b2        0x2 
  .rodata._ZN6Images17ItemShop_Names_03E
-                0x000000000000c2b0       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c2ee        0x2 
+                0x000000000000c2b4       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c2f2        0x2 
  .rodata._ZN6Images17ItemShop_Names_04E
-                0x000000000000c2f0       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c32e        0x2 
+                0x000000000000c2f4       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c332        0x2 
  .rodata._ZN6Images17ItemShop_Names_05E
-                0x000000000000c330       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c36e        0x2 
+                0x000000000000c334       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c372        0x2 
  .rodata._ZN6Images17ItemsBuilding_TopE
-                0x000000000000c370       0x56 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c3c6        0x2 
+                0x000000000000c374       0x56 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c3ca        0x2 
  .rodata._ZN6Images17Player_Walking_00E
-                0x000000000000c3c8       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c3e6        0x2 
+                0x000000000000c3cc       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c3ea        0x2 
  .rodata._ZN6Images17Player_Walking_01E
-                0x000000000000c3e8       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c406        0x2 
+                0x000000000000c3ec       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c40a        0x2 
  .rodata._ZN6Images17Player_Walking_02E
-                0x000000000000c408       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c426        0x2 
+                0x000000000000c40c       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c42a        0x2 
  .rodata._ZN6Images17Player_Walking_03E
-                0x000000000000c428       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c446        0x2 
+                0x000000000000c42c       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c44a        0x2 
  .rodata._ZN6Images17RuneShop_Names_00E
-                0x000000000000c448       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c486        0x2 
+                0x000000000000c44c       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c48a        0x2 
  .rodata._ZN6Images17RuneShop_Names_01E
-                0x000000000000c488       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c4c6        0x2 
+                0x000000000000c48c       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c4ca        0x2 
  .rodata._ZN6Images17RuneShop_Names_02E
-                0x000000000000c4c8       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c506        0x2 
+                0x000000000000c4cc       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c50a        0x2 
  .rodata._ZN6Images17RuneShop_Names_03E
-                0x000000000000c508       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c546        0x2 
+                0x000000000000c50c       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c54a        0x2 
  .rodata._ZN6Images17RunesBuilding_TopE
-                0x000000000000c548       0x66 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c5ae        0x2 
+                0x000000000000c54c       0x66 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c5b2        0x2 
  .rodata._ZN6Images17ShopKeeper_CommonE
-                0x000000000000c5b0       0xba C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c66a        0x2 
+                0x000000000000c5b4       0xba C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c66e        0x2 
  .rodata._ZN6Images18AztaroK_Right_MaskE
-                0x000000000000c66c       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c6a2        0x2 
+                0x000000000000c670       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c6a6        0x2 
  .rodata._ZN6Images18ItemShop_Effect_00E
-                0x000000000000c6a4       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c71e        0x2 
+                0x000000000000c6a8       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c722        0x2 
  .rodata._ZN6Images18ItemShop_Effect_01E
-                0x000000000000c720       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c79a        0x2 
+                0x000000000000c724       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c79e        0x2 
  .rodata._ZN6Images18ItemShop_Effect_02E
-                0x000000000000c79c       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c816        0x2 
+                0x000000000000c7a0       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c81a        0x2 
  .rodata._ZN6Images18ItemShop_Effect_03E
-                0x000000000000c818       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c892        0x2 
+                0x000000000000c81c       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c896        0x2 
  .rodata._ZN6Images18ItemShop_Effect_04E
-                0x000000000000c894       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c90e        0x2 
+                0x000000000000c898       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c912        0x2 
  .rodata._ZN6Images18ItemShop_Effect_05E
-                0x000000000000c910       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c98a        0x2 
+                0x000000000000c914       0x7a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c98e        0x2 
  .rodata._ZN6Images18ItemShop_Helmet_00E
-                0x000000000000c98c       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000c9c6        0x2 
+                0x000000000000c990       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000c9ca        0x2 
  .rodata._ZN6Images18ItemShop_Helmet_01E
-                0x000000000000c9c8       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000ca02        0x2 
+                0x000000000000c9cc       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000ca06        0x2 
  .rodata._ZN6Images18ItemShop_Helmet_02E
-                0x000000000000ca04       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000ca3e        0x2 
+                0x000000000000ca08       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000ca42        0x2 
  .rodata._ZN6Images18LargeWerewolf_HeadE
-                0x000000000000ca40       0x24 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000ca44       0x24 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images18RuneShop_Effect_00E
-                0x000000000000ca64       0x76 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000cada        0x2 
+                0x000000000000ca68       0x76 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000cade        0x2 
  .rodata._ZN6Images18RuneShop_Effect_01E
-                0x000000000000cadc       0x76 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000cb52        0x2 
+                0x000000000000cae0       0x76 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000cb56        0x2 
  .rodata._ZN6Images18RuneShop_Effect_02E
-                0x000000000000cb54       0x76 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000cbca        0x2 
+                0x000000000000cb58       0x76 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000cbce        0x2 
  .rodata._ZN6Images18RuneShop_Effect_03E
-                0x000000000000cbcc       0x76 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000cc42        0x2 
+                0x000000000000cbd0       0x76 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000cc46        0x2 
  .rodata._ZN6Images18RunesBuilding_SideE
-                0x000000000000cc44       0x41 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000cc85        0x3 
+                0x000000000000cc48       0x41 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000cc89        0x3 
  .rodata._ZN6Images18TitleScreen_PressAE
-                0x000000000000cc88       0x46 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000ccce        0x2 
+                0x000000000000cc8c       0x46 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000ccd2        0x2 
  .rodata._ZN6Images19ItemShop_HelmetBaseE
-                0x000000000000ccd0       0x42 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000cd12        0x2 
+                0x000000000000ccd4       0x42 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000cd16        0x2 
  .rodata._ZN6Images19ItemShop_PotionBaseE
-                0x000000000000cd14       0x42 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000cd56        0x2 
+                0x000000000000cd18       0x42 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000cd5a        0x2 
  .rodata._ZN6Images19LargeWerewolf_TorsoE
-                0x000000000000cd58       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000cd96        0x2 
+                0x000000000000cd5c       0x3e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000cd9a        0x2 
  .rodata._ZN6Images19Player_Idle_00_MaskE
-                0x000000000000cd98       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000cdb6        0x2 
+                0x000000000000cd9c       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000cdba        0x2 
  .rodata._ZN6Images19Player_Idle_01_MaskE
-                0x000000000000cdb8       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000cdd6        0x2 
+                0x000000000000cdbc       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000cdda        0x2 
  .rodata._ZN6Images19Player_Idle_02_MaskE
-                0x000000000000cdd8       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000cdf6        0x2 
+                0x000000000000cddc       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000cdfa        0x2 
  .rodata._ZN6Images20Enemy_InfoPanel_MaskE
-                0x000000000000cdf8       0x4e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000ce46        0x2 
+                0x000000000000cdfc       0x4e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000ce4a        0x2 
  .rodata._ZN6Images20ItemShop_Helmet_MaskE
-                0x000000000000ce48       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000ce82        0x2 
+                0x000000000000ce4c       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000ce86        0x2 
  .rodata._ZN6Images20ItemShop_Potion_MaskE
-                0x000000000000ce84       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000ce88       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images20ItemsBuilding_BottomE
-                0x000000000000ce98      0x12e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000cfc6        0x2 
+                0x000000000000ce9c      0x12e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000cfca        0x2 
  .rodata._ZN6Images20LargeWerewolf_BottomE
-                0x000000000000cfc8       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000cfe6        0x2 
+                0x000000000000cfcc       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000cfea        0x2 
  .rodata._ZN6Images20RunesBuilding_BottomE
-                0x000000000000cfe8       0xfc C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000cfec       0xfc C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images21Castle_RH_Bottom_MaskE
-                0x000000000000d0e4       0x28 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000d0e8       0x28 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images22ItemsBuilding_Top_MaskE
-                0x000000000000d10c       0x54 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000d110       0x54 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images22Player_Walking_00_MaskE
-                0x000000000000d160       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d17e        0x2 
+                0x000000000000d164       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d182        0x2 
  .rodata._ZN6Images22Player_Walking_01_MaskE
-                0x000000000000d180       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d19e        0x2 
+                0x000000000000d184       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d1a2        0x2 
  .rodata._ZN6Images22Player_Walking_02_MaskE
-                0x000000000000d1a0       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d1be        0x2 
+                0x000000000000d1a4       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d1c2        0x2 
  .rodata._ZN6Images22Player_Walking_03_MaskE
-                0x000000000000d1c0       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d1de        0x2 
+                0x000000000000d1c4       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d1e2        0x2 
  .rodata._ZN6Images22RunesBuilding_Top_MaskE
-                0x000000000000d1e0       0x64 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000d1e4       0x64 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images23LargeWerewolf_Head_MaskE
-                0x000000000000d244       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d266        0x2 
+                0x000000000000d248       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d26a        0x2 
  .rodata._ZN6Images2HPE
-                0x000000000000d268        0x9 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d271        0x3 
+                0x000000000000d26c        0x9 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d275        0x3 
  .rodata._ZN6Images3ByeE
-                0x000000000000d274       0x4c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000d278       0x4c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images3NPCE
-                0x000000000000d2c0       0x50 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000d2c4       0x50 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images3SkyE
-                0x000000000000d310        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d31a        0x2 
+                0x000000000000d314        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d31e        0x2 
  .rodata._ZN6Images4PPOTE
-                0x000000000000d31c      0x106 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d422        0x2 
+                0x000000000000d320      0x106 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d426        0x2 
  .rodata._ZN6Images4TreeE
-                0x000000000000d424       0x6a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d48e        0x2 
+                0x000000000000d428       0x6a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d492        0x2 
  .rodata._ZN6Images5ChestE
-                0x000000000000d490        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d49a        0x2 
+                0x000000000000d494        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d49e        0x2 
  .rodata._ZN6Images5CoinsE
-                0x000000000000d49c       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d4be        0x2 
+                0x000000000000d4a0       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d4c2        0x2 
  .rodata._ZN6Images5GaugeE
-                0x000000000000d4c0       0x56 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d516        0x2 
+                0x000000000000d4c4       0x56 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d51a        0x2 
  .rodata._ZN6Images5GrassE
-                0x000000000000d518       0x26 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d53e        0x2 
+                0x000000000000d51c       0x26 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d542        0x2 
  .rodata._ZN6Images5SkullE
-                0x000000000000d540        0xb C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d54b        0x1 
+                0x000000000000d544        0xb C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d54f        0x1 
  .rodata._ZN6Images6CratesE
-                0x000000000000d54c       0x44 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000d550       0x44 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images6RecastE
-                0x000000000000d590       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d5b2        0x2 
+                0x000000000000d594       0x22 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d5b6        0x2 
  .rodata._ZN6Images6SoundsE
-                0x000000000000d5b4       0x12 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d5c6        0x2 
+                0x000000000000d5b8       0x12 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d5ca        0x2 
  .rodata._ZN6Images6UOM_GPE
-                0x000000000000d5c8       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000d5cc       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images6UOM_SPE
-                0x000000000000d5e0       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000d5e4       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images7HelmetsE
-                0x000000000000d5f8        0xc C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000d5fc        0xc C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images7NPC_EOGE
-                0x000000000000d604       0x4a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d64e        0x2 
+                0x000000000000d608       0x4a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d652        0x2 
  .rodata._ZN6Images7PumpkinE
-                0x000000000000d650       0x20 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000d654       0x20 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images7gpGaugeE
-                0x000000000000d670       0x52 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d6c2        0x2 
+                0x000000000000d674       0x52 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d6c6        0x2 
  .rodata._ZN6Images7hpGaugeE
-                0x000000000000d6c4       0x35 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d6f9        0x3 
+                0x000000000000d6c8       0x35 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d6fd        0x3 
  .rodata._ZN6Images7spGaugeE
-                0x000000000000d6fc       0x52 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d74e        0x2 
+                0x000000000000d700       0x52 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d752        0x2 
  .rodata._ZN6Images8Arrow_UpE
-                0x000000000000d750        0xb C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d75b        0x1 
+                0x000000000000d754        0xb C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d75f        0x1 
  .rodata._ZN6Images8Bye_MaskE
-                0x000000000000d75c       0x4a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d7a6        0x2 
+                0x000000000000d760       0x4a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d7aa        0x2 
  .rodata._ZN6Images8Cloud_01E
-                0x000000000000d7a8       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d7c6        0x2 
+                0x000000000000d7ac       0x1e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d7ca        0x2 
  .rodata._ZN6Images8Cloud_02E
-                0x000000000000d7c8       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d802        0x2 
+                0x000000000000d7cc       0x3a C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d806        0x2 
  .rodata._ZN6Images8MrBlinkyE
-                0x000000000000d804       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d81a        0x2 
+                0x000000000000d808       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d81e        0x2 
  .rodata._ZN6Images8SkeletonE
-                0x000000000000d81c        0xc C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000d820        0xc C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images9Helmet_00E
-                0x000000000000d828       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d83e        0x2 
+                0x000000000000d82c       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d842        0x2 
  .rodata._ZN6Images9Helmet_01E
-                0x000000000000d840       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d856        0x2 
+                0x000000000000d844       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d85a        0x2 
  .rodata._ZN6Images9Helmet_02E
-                0x000000000000d858       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d86e        0x2 
+                0x000000000000d85c       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d872        0x2 
  .rodata._ZN6Images9LeaveShopE
-                0x000000000000d870       0x34 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000d874       0x34 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images9RollsLeftE
-                0x000000000000d8a4        0xe C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d8b2        0x2 
+                0x000000000000d8a8        0xe C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d8b6        0x2 
  .rodata._ZN6Images9SPGraphicE
-                0x000000000000d8b4       0x32 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d8e6        0x2 
+                0x000000000000d8b8       0x32 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d8ea        0x2 
  .rodata._ZN6Images9TombstoneE
-                0x000000000000d8e8       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000d8ec       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6Images9Town_SignE
-                0x000000000000d900       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d936        0x2 
+                0x000000000000d904       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d93a        0x2 
  .rodata._ZN6ImagesL25DungeonDecorations_ImagesE
-                0x000000000000d938       0x1c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000d93c       0x1c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZN6SoundsL10playerDeadE
-                0x000000000000d954       0x56 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d9aa        0x2 
+                0x000000000000d958       0x56 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d9ae        0x2 
  .rodata._ZN6SoundsL12hpOrGPGainedE
-                0x000000000000d9ac       0x12 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d9be        0x2 
+                0x000000000000d9b0       0x12 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d9c2        0x2 
  .rodata._ZN6SoundsL4castE
-                0x000000000000d9c0       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000d9d6        0x2 
+                0x000000000000d9c4       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000d9da        0x2 
  .rodata._ZN6SoundsL4mainE
-                0x000000000000d9d8      0x18e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000db66        0x2 
+                0x000000000000d9dc      0x18e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000db6a        0x2 
  .rodata._ZN6SoundsL5titleE
-                0x000000000000db68       0x56 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000dbbe        0x2 
+                0x000000000000db6c       0x56 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000dbc2        0x2 
  .rodata._ZN6SoundsL5touchE
-                0x000000000000dbc0        0xe C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000dbce        0x2 
+                0x000000000000dbc4        0xe C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000dbd2        0x2 
  .rodata._ZN6SoundsL8enemyHitE
-                0x000000000000dbd0       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000dbe6        0x2 
+                0x000000000000dbd4       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000dbea        0x2 
  .rodata._ZN6SoundsL8purchaseE
-                0x000000000000dbe8        0xe C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000dbf6        0x2 
+                0x000000000000dbec        0xe C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000dbfa        0x2 
  .rodata._ZN6SoundsL9enemyDeadE
-                0x000000000000dbf8       0x4e C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000dc46        0x2 
+                0x000000000000dbfc       0x4e C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000dc4a        0x2 
  .rodata._ZN6SoundsL9playerHitE
-                0x000000000000dc48       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000dc5e        0x2 
+                0x000000000000dc4c       0x16 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000dc62        0x2 
  .rodata._ZTVN3wch6usbcdc13USBSerialCH32E
-                0x000000000000dc60       0x2c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000dc64       0x2c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZZL5beginhhE6defpal
-                0x000000000000dc8c       0x20 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000dc90       0x20 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZZL9panelInitvE2gn
-                0x000000000000dcac       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000dcb0       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata._ZZL9panelInitvE2gp
-                0x000000000000dcbc       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000dcc0       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .rodata.main.str1.4
-                0x000000000000dccc       0x63 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000dd2f        0x1 
+                0x000000000000dcd0       0x63 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000dd33        0x1 
  .rodata.str1.4
-                0x000000000000dd30       0x76 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000dda6        0x2 
+                0x000000000000dd34       0x76 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000ddaa        0x2 
  .rodata.uint32_to_hex_string.str1.4
-                0x000000000000dda8       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000ddac       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
                                          0x11 (size before relaxing)
  .rodata.wch_usbcdc_CfgDescr
-                0x000000000000ddbc       0x4b C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- *fill*         0x000000000000de07        0x1 
+                0x000000000000ddc0       0x4b C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ *fill*         0x000000000000de0b        0x1 
  .rodata.wch_usbcdc_DevDescr
-                0x000000000000de08       0x12 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000000000de0c       0x12 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *(.gnu.linkonce.t.*)
-                0x000000000000de1c                . = ALIGN (0x4)
- *fill*         0x000000000000de1a        0x2 
+                0x000000000000de20                . = ALIGN (0x4)
+ *fill*         0x000000000000de1e        0x2 
 
-.rela.dyn       0x000000000000de1c        0x0
- .rela.init     0x000000000000de1c        0x0 C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a(startup_ch32yyxx.S.o)
+.rela.dyn       0x000000000000de20        0x0
+ .rela.init     0x000000000000de20        0x0 C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a(startup_ch32yyxx.S.o)
  .rela.text.handle_reset
-                0x000000000000de1c        0x0 C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a(startup_ch32yyxx.S.o)
+                0x000000000000de20        0x0 C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a(startup_ch32yyxx.S.o)
  .rela.text.__libc_init_array
-                0x000000000000de1c        0x0 C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a(startup_ch32yyxx.S.o)
+                0x000000000000de20        0x0 C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a(startup_ch32yyxx.S.o)
  .rela.text._ZN4save4readEmhtPh.constprop.159
-                0x000000000000de1c        0x0 C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a(startup_ch32yyxx.S.o)
+                0x000000000000de20        0x0 C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a(startup_ch32yyxx.S.o)
  .rela.text._ZL11writeRecordv
-                0x000000000000de1c        0x0 C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a(startup_ch32yyxx.S.o)
+                0x000000000000de20        0x0 C:\Users\SongTrichell\AppData\Local\arduino\cores\7c7752a66135f40ff93d90b04a67b991\core.a(startup_ch32yyxx.S.o)
 
-.fini           0x000000000000de1c        0x0
+.fini           0x000000000000de20        0x0
  *(SORT_NONE(.fini))
-                0x000000000000de1c                . = ALIGN (0x4)
-                0x000000000000de1c                PROVIDE (_etext = .)
+                0x000000000000de20                . = ALIGN (0x4)
+                0x000000000000de20                PROVIDE (_etext = .)
 
-.preinit_array  0x000000000000de1c        0x0
-                0x000000000000de1c                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000000000000de20        0x0
+                0x000000000000de20                PROVIDE (__preinit_array_start = .)
  *(.preinit_array)
-                0x000000000000de1c                PROVIDE (__preinit_array_end = .)
+                0x000000000000de20                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x000000000000de1c        0x4
-                0x000000000000de1c                PROVIDE (__init_array_start = .)
+.init_array     0x000000000000de20        0x4
+                0x000000000000de20                PROVIDE (__init_array_start = .)
  *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
  *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
- .init_array    0x000000000000de1c        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
-                0x000000000000de20                PROVIDE (__init_array_end = .)
+ .init_array    0x000000000000de20        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+                0x000000000000de24                PROVIDE (__init_array_end = .)
 
-.fini_array     0x000000000000de20        0x0
+.fini_array     0x000000000000de24        0x0
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
  *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
@@ -1903,142 +1904,142 @@ END GROUP
 
 .boot_magic     0x0000000020000000       0x10
  *(.boot_magic)
- .boot_magic    0x0000000020000000       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+ .boot_magic    0x0000000020000000       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
 
-.dalign         0x0000000020000010        0x0 load address 0x000000000000de20
+.dalign         0x0000000020000010        0x0 load address 0x000000000000de24
                 0x0000000020000010                . = ALIGN (0x4)
                 0x0000000020000010                PROVIDE (_data_vma = .)
 
-.dlalign        0x000000000000de20        0x0
-                0x000000000000de20                . = ALIGN (0x4)
-                0x000000000000de20                PROVIDE (_data_lma = .)
+.dlalign        0x000000000000de24        0x0
+                0x000000000000de24                . = ALIGN (0x4)
+                0x000000000000de24                PROVIDE (_data_lma = .)
 
-.data           0x0000000020000010      0x538 load address 0x000000000000de20
+.data           0x0000000020000010      0x538 load address 0x000000000000de24
  *(.gnu.linkonce.r.*)
  .gnu.linkonce.r.chgfx.clearall
-                0x0000000020000010       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000010       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .gnu.linkonce.r.chgfx.pixel
-                0x0000000020000046       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000046       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .gnu.linkonce.r.chgfx.conv565
-                0x000000002000007c       0xaa C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000007c       0xaa C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .gnu.linkonce.r.chgfx.hline
-                0x0000000020000126       0xca C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000126       0xca C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .gnu.linkonce.r.chgfx.convspan
-                0x00000000200001f0       0x90 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200001f0       0x90 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .gnu.linkonce.r.chgfx.convjob
-                0x0000000020000280       0x72 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000280       0x72 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .gnu.linkonce.r.chg.save
-                0x00000000200002f2       0xee C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200002f2       0xee C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *(.data .data.*)
- .data.chgame   0x00000000200003e0       0x28 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+ .data.chgame   0x00000000200003e0       0x28 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .data.wch_usbcdc_InterfDescr
-                0x0000000020000408       0x1c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000408       0x1c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .data.wch_usbcdc_ManufDescr
-                0x0000000020000424        0xe C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000424        0xe C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x0000000020000432        0x2 
  .data.wch_usbcdc_ProdDescr
-                0x0000000020000434        0xe C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000434        0xe C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x0000000020000442        0x2 
  .data.wch_usbcdc_SerDescr
-                0x0000000020000444       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000444       0x36 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *(.gnu.linkonce.d.*)
                 0x0000000020000480                . = ALIGN (0x8)
  *fill*         0x000000002000047a        0x6 
                 0x0000000020000c80                PROVIDE (__global_pointer$ = (. + 0x800))
  *(.sdata .sdata.*)
  .sdata.CDC_lineCoding
-                0x0000000020000480        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000480        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata.CFGHR_tmpB
-                0x0000000020000488        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000488        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata.CFGHR_tmpC
-                0x000000002000048c        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- .sdata.EEPROM  0x0000000020000490        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000048c        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ .sdata.EEPROM  0x0000000020000490        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata._ZL12paletteDirty
-                0x0000000020000491        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000491        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata._ZL7s_dirty
-                0x0000000020000492        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000492        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata._ZL7soundOn
-                0x0000000020000493        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000493        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata._ZN5audioL7fxPitchE
-                0x0000000020000494        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000494        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata._ZZN12Arduboy2Base7displayEbE5first
-                0x0000000020000496        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000496        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x0000000020000497        0x1 
  .sdata.fadeInEffect
-                0x0000000020000498        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000498        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata.mrBlinky
-                0x000000002000049a        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000049a        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x000000002000049b        0x1 
- .sdata.rnd     0x000000002000049c        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+ .sdata.rnd     0x000000002000049c        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x000000002000049e        0x2 
  .sdata.videoOptions
-                0x00000000200004a0        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004a0        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *(.sdata2.*)
  .sdata2._ZL11effectTable
-                0x00000000200004a4        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004a4        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata2._ZL19aztarok_Left_Offset
-                0x00000000200004ac        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004ac        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata2._ZL20aztarok_Right_Offset
-                0x00000000200004b0        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004b0        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata2._ZL20multiPart_ArrayIndex
-                0x00000000200004b4        0x3 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004b4        0x3 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200004b7        0x1 
  .sdata2._ZL21aztarok_Middle_Offset
-                0x00000000200004b8        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004b8        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata2._ZL22multiPart_LinesOverall
-                0x00000000200004bc        0x3 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004bc        0x3 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200004bf        0x1 
  .sdata2._ZL25largeWerewolf_Head_Offset
-                0x00000000200004c0        0x3 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004c0        0x3 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200004c3        0x1 
  .sdata2._ZL26largeWerewolf_Torso_Offset
-                0x00000000200004c4        0x3 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004c4        0x3 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200004c7        0x1 
  .sdata2._ZL40RuneCombination_Standard_Captions_Length
-                0x00000000200004c8        0x5 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004c8        0x5 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200004cd        0x3 
  .sdata2._ZL41RuneCombination_Purchased_Captions_Length
-                0x00000000200004d0        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004d0        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata2._ZN6Images10Arrow_LeftE
-                0x00000000200004d4        0x5 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004d4        0x5 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200004d9        0x3 
  .sdata2._ZN6Images11Arrow_RightE
-                0x00000000200004dc        0x5 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004dc        0x5 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200004e1        0x3 
  .sdata2._ZN6Images16Inventory_MarkerE
-                0x00000000200004e4        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004e4        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata2._ZN6Images17Arrow_Up_DialogueE
-                0x00000000200004e8        0x7 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004e8        0x7 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200004ef        0x1 
  .sdata2._ZN6Images18Castle_LH_Top_MaskE
-                0x00000000200004f0        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004f0        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata2._ZN6Images19Arrow_Down_DialogueE
-                0x00000000200004f8        0x7 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200004f8        0x7 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200004ff        0x1 
  .sdata2._ZN6Images23Inventory_Helmet_MarkerE
-                0x0000000020000500        0x6 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000500        0x6 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x0000000020000506        0x2 
  .sdata2._ZN6Images5ChainE
-                0x0000000020000508        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000508        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata2._ZN6Images7DMGFireE
-                0x0000000020000510        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000510        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata2._ZN6Images7DMGMistE
-                0x0000000020000518        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000518        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata2._ZN9ConstantsL13NPC_LocationsE
-                0x0000000020000520        0x6 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000520        0x6 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x0000000020000526        0x2 
  .sdata2._ZN9ConstantsL19Tombstone_LocationsE
-                0x0000000020000528        0x6 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000528        0x6 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x000000002000052e        0x2 
  .sdata2._ZZ10portBitmapiiPKhiihhhS0_E5cover
-                0x0000000020000530        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000530        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata2._ZZ11spriteColorPKhhhhE1c
-                0x0000000020000534        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000534        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sdata2._ZZ11spriteColorPKhhhhE1c_0
-                0x000000002000053c        0x3 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000053c        0x3 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x000000002000053f        0x1 
  .sdata2.wch_usbcdc_LangDescr
-                0x0000000020000540        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000540        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *(.gnu.linkonce.s.*)
                 0x0000000020000548                . = ALIGN (0x8)
  *fill*         0x0000000020000544        0x4 
@@ -2050,192 +2051,192 @@ END GROUP
                 0x0000000020000548                . = ALIGN (0x4)
                 0x0000000020000548                PROVIDE (_edata = .)
 
-.bss            0x0000000020000548     0x3c78 load address 0x000000000000e358
+.bss            0x0000000020000548     0x3c78 load address 0x000000000000e35c
                 0x0000000020000548                . = ALIGN (0x4)
                 0x0000000020000548                PROVIDE (_sbss = .)
  *(.sbss*)
  .sbss.CDC_bootRequest
-                0x0000000020000548        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000548        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss.CDC_controlLineState
-                0x0000000020000549        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000549        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss.CDC_readByteCount
-                0x000000002000054a        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000054a        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss.CDC_readPointer
-                0x000000002000054b        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000054b        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss.CDC_writeBusyFlag
-                0x000000002000054c        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000054c        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss.CDC_writePointer
-                0x000000002000054d        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000054d        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss.USB_Addr
-                0x000000002000054e        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000054e        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss.USB_Config
-                0x000000002000054f        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000054f        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss.USB_ENUM_OK
-                0x0000000020000550        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000550        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x0000000020000551        0x1 
  .sbss.USB_SetupLen
-                0x0000000020000552        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000552        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss.USB_SetupReq
-                0x0000000020000554        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000554        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss.USB_SetupTyp
-                0x0000000020000555        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000555        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x0000000020000556        0x2 
  .sbss.USB_pDescr
-                0x0000000020000558        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000558        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL10background
-                0x000000002000055c        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000055c        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x000000002000055d        0x3 
  .sbss._ZL10s_readyLen
-                0x0000000020000560        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000560        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL10startScore
-                0x0000000020000564        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000564        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL10storedGame
-                0x0000000020000568        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000568        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL11priorInvert
-                0x000000002000056c        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000056c        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x000000002000056d        0x3 
  .sbss._ZL11s_convOther
-                0x0000000020000570        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000570        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL12paletteReady
-                0x0000000020000574        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000574        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x0000000020000575        0x3 
  .sbss._ZL12s_buildOther
-                0x0000000020000578        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000578        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL13videoInverted
-                0x000000002000057c        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- .sbss._ZL3row  0x000000002000057d        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000057c        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ .sbss._ZL3row  0x000000002000057d        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL4duty
-                0x000000002000057e        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000057e        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL5nRuns
-                0x000000002000057f        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000057f        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL5ready.lto_priv.180
-                0x0000000020000580        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000580        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL5ready.lto_priv.181
-                0x0000000020000581        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000581        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x0000000020000582        0x2 
  .sbss._ZL6before
-                0x0000000020000584        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000584        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL6heldHz
-                0x0000000020000588        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000588        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL6opened
-                0x000000002000058a        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000058a        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL6s_mode
-                0x000000002000058b        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000058b        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL7s_ready
-                0x000000002000058c        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000058c        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x000000002000058d        0x3 
  .sbss._ZL8clockTag
-                0x0000000020000590        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000590        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL8deadline
-                0x0000000020000594        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000594        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL8duration
-                0x0000000020000598        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020000598        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x000000002000059a        0x2 
  .sbss._ZL8nextNote
-                0x000000002000059c        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000059c        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL8strength
-                0x00000000200005a0        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005a0        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200005a1        0x3 
  .sbss._ZL9fileBytes
-                0x00000000200005a4        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005a4        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL9remaining
-                0x00000000200005a8        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005a8        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZL9s_sending
-                0x00000000200005aa        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005aa        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200005ab        0x1 
  .sbss._ZL9startedAt
-                0x00000000200005ac        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005ac        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN2sdL2brE
-                0x00000000200005b0        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005b0        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN2sdL2hcE
-                0x00000000200005b1        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005b1        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN2sdL8lcdCtlr1E
-                0x00000000200005b2        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005b2        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN4saveL6brokenE
-                0x00000000200005b4        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005b4        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200005b5        0x1 
  .sbss._ZN4saveL7lastSeqE
-                0x00000000200005b6        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005b6        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN5audioL3fxIE
-                0x00000000200005b8        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005b8        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN5audioL3fxNE
-                0x00000000200005b9        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005b9        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN5audioL3fxTE
-                0x00000000200005ba        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005ba        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN5audioL4softE
-                0x00000000200005bc        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005bc        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN5audioL5glideE
-                0x00000000200005bd        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005bd        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200005be        0x2 
  .sbss._ZN5audioL5tableE
-                0x00000000200005c0        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005c0        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN5audioL6fxPrioE
-                0x00000000200005c4        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005c4        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200005c5        0x1 
  .sbss._ZN5audioL6lastHzE
-                0x00000000200005c6        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005c6        0x2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN5audioL7fxStepsE
-                0x00000000200005c8        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005c8        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN5audioL7oneStepE
-                0x00000000200005cc        0x3 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005cc        0x3 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN5audioL7runningE
-                0x00000000200005cf        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005cf        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZN5audioL7startedE
-                0x00000000200005d0        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005d0        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss._ZZN12Arduboy2Base7displayEbE10errorShown
-                0x00000000200005d1        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005d1        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200005d2        0x2 
- .sbss.arduboy  0x00000000200005d4        0x6 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+ .sbss.arduboy  0x00000000200005d4        0x6 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200005da        0x2 
- .sbss.font3x6  0x00000000200005dc        0x6 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+ .sbss.font3x6  0x00000000200005dc        0x6 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss.gameState
-                0x00000000200005e2        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005e2        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200005e3        0x5 
- .sbss.msTick   0x00000000200005e8        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+ .sbss.msTick   0x00000000200005e8        0x8 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .sbss.portDeferredPresent
-                0x00000000200005f0        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005f0        0x1 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200005f1        0x3 
  .sbss.titleScreenVars
-                0x00000000200005f4        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200005f4        0x4 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *(.gnu.linkonce.sb.*)
  *(.bss*)
- .bss._ZL3age   0x00000000200005f8       0x1c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- .bss._ZL3tag   0x0000000020000614       0x1c C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- .bss._ZL4runs  0x0000000020000630       0x80 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+ .bss._ZL3age   0x00000000200005f8       0x1c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ .bss._ZL3tag   0x0000000020000614       0x1c C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ .bss._ZL4runs  0x0000000020000630       0x80 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .bss._ZL5cache
-                0x00000000200006b0      0xe00 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200006b0      0xe00 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .bss._ZL5s_job
-                0x00000000200014b0       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200014b0       0x10 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .bss._ZL5s_lut
-                0x00000000200014c0      0x400 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200014c0      0x400 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .bss._ZL6record
-                0x00000000200018c0       0xe2 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200018c0       0xe2 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x00000000200019a2        0x2 
  .bss._ZL7palette
-                0x00000000200019a4       0x20 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200019a4       0x20 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .bss._ZL7s_chunk
-                0x00000000200019c4      0x400 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x00000000200019c4      0x400 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .bss._ZL9directory
-                0x0000000020001dc4      0x1b9 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020001dc4      0x1b9 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x0000000020001f7d        0x3 
  .bss._ZN3fat12_GLOBAL__N_11vE
-                0x0000000020001f80       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020001f80       0x18 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .bss._ZN3wch6usbcdc9USBSerialE
-                0x0000000020001f98       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020001f98       0x14 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .bss._ZZL9findStylePKhE5cache
-                0x0000000020001fac       0x80 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- .bss.gfx_fb    0x000000002000202c     0x2000 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
- .bss.gfx_pal   0x000000002000402c       0x20 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020001fac       0x80 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ .bss.gfx_fb    0x000000002000202c     0x2000 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
+ .bss.gfx_pal   0x000000002000402c       0x20 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .bss.playGameVars
-                0x000000002000404c       0xdc C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x000000002000404c       0xdc C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  .bss.wch_usbcdc_EP0_buffer
-                0x0000000020004128        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020004128        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x0000000020004132        0x2 
  .bss.wch_usbcdc_EP1_buffer
-                0x0000000020004134        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020004134        0xa C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *fill*         0x000000002000413e        0x2 
  .bss.wch_usbcdc_EP2_buffer
-                0x0000000020004140       0x80 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+                0x0000000020004140       0x80 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
  *(.gnu.linkonce.b.*)
  *(COMMON*)
                 0x00000000200041c0                . = ALIGN (0x4)
@@ -2254,7 +2255,7 @@ END GROUP
 OUTPUT(C:\Users\SongTrichell\AppData\Local\arduino\sketches\1BE28B5C46DF702688FD14BBAF01E0AB/CurseOfAstarok.ino.elf elf32-littleriscv)
 
 .comment        0x0000000000000000       0x33
- .comment       0x0000000000000000       0x33 C:\Users\SONGTR~1\AppData\Local\Temp\ccwQ09pn.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x33 C:\Users\SONGTR~1\AppData\Local\Temp\ccP1FMG4.ltrans0.ltrans.o
                                          0x34 (size before relaxing)
 
 .debug_frame    0x0000000000000000       0x7c
